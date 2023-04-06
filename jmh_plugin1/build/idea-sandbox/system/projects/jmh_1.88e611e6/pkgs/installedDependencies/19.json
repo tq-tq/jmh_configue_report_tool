@@ -1,0 +1,30 @@
+{
+    "cacheVersion": 2,
+    "fileHashCode": 19,
+    "sha256": "497567d80fb18c7c68b239d0a3531200cb3a5def60940f868318c34a36c50464",
+    "parsingAttempts": 4,
+    "projectName": "untitled",
+    "dependencies": [
+        {
+            "coordinates": {
+                "groupId": "com.google.guava",
+                "artifactId": "guava",
+                "version": "31.1-jre"
+            }
+        },
+        {
+            "coordinates": {
+                "groupId": "org.openjdk.jmh",
+                "artifactId": "jmh-core",
+                "version": "1.36"
+            }
+        },
+        {
+            "coordinates": {
+                "groupId": "org.openjdk.jmh",
+                "artifactId": "jmh-generator-annprocess",
+                "version": "1.36"
+            }
+        }
+    ]
+}

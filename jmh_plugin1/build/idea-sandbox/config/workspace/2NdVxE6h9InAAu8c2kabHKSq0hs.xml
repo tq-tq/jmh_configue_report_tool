@@ -1,0 +1,223 @@
+<project version="4">
+  <component name="BookmarksManager">
+    <option name="groups">
+      <GroupState>
+        <option name="name" value="jmh_1" />
+      </GroupState>
+    </option>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="-1">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/untitled/src/main/java/org/example/JmhTestApp1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="566">
+              <caret line="56" column="26" selection-start-line="56" selection-start-column="26" selection-end-line="56" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTypeUsageLocalSummary">
+    <fileType name="JAVA">
+      <summary usageCount="39" lastUsed="1680774266695" />
+    </fileType>
+    <fileType name="XML">
+      <summary usageCount="1" lastUsed="1680353164384" />
+    </fileType>
+  </component>
+  <component name="GitSEFilterConfiguration">{
+}</component>
+  <component name="IdeDocumentHistory">
+    <changedPaths>
+      <option value="$PROJECT_DIR$/untitled/src/main/java/org/example/JmhTestApp1.java" />
+    </changedPaths>
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" />
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="jmh_1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jmh_1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jmh_1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jmh_1" type="462c0819:PsiDirectoryNode" />
+              <item name="untitled" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jmh_1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jmh_1" type="462c0819:PsiDirectoryNode" />
+              <item name="untitled" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jmh_1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jmh_1" type="462c0819:PsiDirectoryNode" />
+              <item name="untitled" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="RunConfigurationStartHistory">
+    <history>
+      <element setting="Jmh.JmhTestApp1.arrayListAdd$" executorId="Run" />
+    </history>
+  </component>
+  <component name="ToolWindowManager">
+    <editor active="true" />
+    <layout>
+      <window_info id="Bookmarks" order="0" sideWeight="0.7155173" side_tool="true" weight="0.4181351" />
+      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.45219433" weight="0.27716595" />
+      <window_info id="Learn" order="2" />
+      <window_info active="true" x="343" y="106" width="531" height="565" id="Configue Tool" order="3" sideWeight="0.54780567" side_tool="true" type="WINDOWED" weight="0.4181351" />
+      <window_info active="true" x="534" y="322" width="449" height="529" id="JMH Configue Tool" order="4" type="WINDOWED" weight="0.33002937" />
+      <window_info id="Structure" order="5" sideWeight="0.7155173" side_tool="true" weight="0.4181351" />
+      <window_info anchor="bottom" id="Version Control" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" show_stripe_button="false" weight="0.3294837" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="4" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Problems View" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Services" order="8" />
+      <window_info anchor="bottom" id="Build" order="9" />
+      <window_info anchor="bottom" id="Dependencies" order="10" />
+      <window_info anchor="right" id="Maven" order="0" weight="0.33002937" />
+      <window_info anchor="right" id="Notifications" order="1" weight="0.25" />
+    </layout>
+    <recentWindows>
+      <value>JMH Configue Tool</value>
+      <value>Project</value>
+      <value>Configue Tool</value>
+      <value>Maven</value>
+      <value>Notifications</value>
+      <value>Structure</value>
+      <value>Bookmarks</value>
+      <value>Run</value>
+    </recentWindows>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="398" y="25" key="#Project_Structure" timestamp="1680352977389">
+      <screen x="60" y="25" width="1380" height="875" />
+    </state>
+    <state x="398" y="25" key="#Project_Structure/60.25.1380.875@60.25.1380.875" timestamp="1680352977389" />
+    <state x="720" y="158" key="#com.intellij.ide.util.MemberChooser" timestamp="1680766245455">
+      <screen x="62" y="25" width="1378" height="875" />
+    </state>
+    <state x="716" y="158" key="#com.intellij.ide.util.MemberChooser/54.25.1386.875@54.25.1386.875" timestamp="1680697171106" />
+    <state x="717" y="158" key="#com.intellij.ide.util.MemberChooser/56.25.1384.875@56.25.1384.875" timestamp="1680761795917" />
+    <state x="718" y="158" key="#com.intellij.ide.util.MemberChooser/58.25.1382.875@58.25.1382.875" timestamp="1680762329648" />
+    <state x="720" y="158" key="#com.intellij.ide.util.MemberChooser/62.25.1378.875@62.25.1378.875" timestamp="1680766245455" />
+    <state x="532" y="246" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1680773455830">
+      <screen x="58" y="25" width="1382" height="875" />
+    </state>
+    <state x="529" y="246" key="#com.intellij.ide.util.TreeClassChooserDialog/54.25.1386.875@54.25.1386.875" timestamp="1680697155077" />
+    <state x="530" y="246" key="#com.intellij.ide.util.TreeClassChooserDialog/56.25.1384.875@56.25.1384.875" timestamp="1680761737632" />
+    <state x="532" y="246" key="#com.intellij.ide.util.TreeClassChooserDialog/58.25.1382.875@58.25.1382.875" timestamp="1680773455830" />
+    <state x="535" y="246" key="#com.intellij.ide.util.TreeClassChooserDialog/62.25.1378.875@62.25.1378.875" timestamp="1680766242312" />
+    <state x="462" y="116" width="800" height="600" key="#com.intellij.internal.psiView.PsiViewerDialog" timestamp="1680680200846">
+      <screen x="56" y="25" width="1384" height="875" />
+    </state>
+    <state x="462" y="116" width="800" height="600" key="#com.intellij.internal.psiView.PsiViewerDialog/56.25.1384.875@56.25.1384.875" timestamp="1680680200846" />
+    <state width="1318" height="214" key="GridCell.Tab.0.bottom" timestamp="1680591053945">
+      <screen x="58" y="25" width="1382" height="875" />
+    </state>
+    <state width="1318" height="214" key="GridCell.Tab.0.bottom/58.25.1382.875@58.25.1382.875" timestamp="1680591053945" />
+    <state width="1318" height="214" key="GridCell.Tab.0.center" timestamp="1680591053945">
+      <screen x="58" y="25" width="1382" height="875" />
+    </state>
+    <state width="1318" height="214" key="GridCell.Tab.0.center/58.25.1382.875@58.25.1382.875" timestamp="1680591053945" />
+    <state width="1318" height="214" key="GridCell.Tab.0.left" timestamp="1680591053945">
+      <screen x="58" y="25" width="1382" height="875" />
+    </state>
+    <state width="1318" height="214" key="GridCell.Tab.0.left/58.25.1382.875@58.25.1382.875" timestamp="1680591053945" />
+    <state width="1318" height="214" key="GridCell.Tab.0.right" timestamp="1680591053945">
+      <screen x="58" y="25" width="1382" height="875" />
+    </state>
+    <state width="1318" height="214" key="GridCell.Tab.0.right/58.25.1382.875@58.25.1382.875" timestamp="1680591053945" />
+    <state x="372" y="175" width="824" height="537" key="IDE.errors.dialog" timestamp="1680423645545">
+      <screen x="58" y="25" width="1382" height="875" />
+    </state>
+    <state x="372" y="175" width="824" height="537" key="IDE.errors.dialog/58.25.1382.875@58.25.1382.875" timestamp="1680423645545" />
+    <state x="247" y="25" key="SettingsEditor" timestamp="1680422178968">
+      <screen x="56" y="25" width="1384" height="875" />
+    </state>
+    <state x="247" y="25" key="SettingsEditor/56.25.1384.875@56.25.1384.875" timestamp="1680422178968" />
+    <state x="770" y="195" key="search.everywhere.popup" timestamp="1680761610837">
+      <screen x="56" y="25" width="1384" height="875" />
+    </state>
+    <state x="770" y="195" key="search.everywhere.popup/56.25.1384.875@56.25.1384.875" timestamp="1680761610837" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/untitled/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-285" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/untitled/src/main/java/org/example/JmhTestApp1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="566">
+          <caret line="56" column="26" selection-start-line="56" selection-start-column="26" selection-end-line="56" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI" />
+      <state key="GlobalLibrariesConfigurable.UI" />
+      <state key="JdkListConfigurable.UI" />
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>untitled</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI" />
+    </states>
+  </component>
+</project>

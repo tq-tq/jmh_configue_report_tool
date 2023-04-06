@@ -1,0 +1,34 @@
+2023-04-04 14:46:24,703 [      5]   INFO - #o.j.j.c.BuildMain - ==================================================
+2023-04-04 14:46:24,756 [     58]   INFO - #o.j.j.c.BuildMain - Build process started. Classpath: /Users/tangqiao/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2022.1.4/e3ffd300c9b86b78a24cd23fdc358ac8493afdf5/ideaIC-2022.1.4/plugins/java/lib/jps-launcher.jar
+2023-04-04 14:46:25,156 [    458]   INFO - #o.j.j.c.BuildMain - Connection to IDE established in 361 ms
+2023-04-04 14:46:25,470 [    772]   INFO - #o.j.j.c.JpsModelLoaderImpl - Loading model: project path = /Users/tangqiao/IdeaProjects/jmh_1, global options path = /Users/tangqiao/IdeaProjects/firstPlugin/jmh_plugin1/build/idea-sandbox/config/options
+2023-04-04 14:46:25,810 [   1112]   INFO - #o.j.j.c.JpsModelLoaderImpl - Model loaded in 340 ms
+2023-04-04 14:46:25,811 [   1113]   INFO - #o.j.j.c.JpsModelLoaderImpl - Project has 2 modules, 13 libraries
+2023-04-04 14:46:26,064 [   1366]   INFO - #c.i.u.i.FilePageCache - lower=100; upper=500; buffer=10; max=680
+2023-04-04 14:46:26,277 [   1579]   INFO - #o.j.j.i.IncProjectBuilder - Building project; isRebuild:false; isMake:false parallel compilation:false
+2023-04-04 14:46:26,280 [   1582]   INFO - #o.j.k.j.b.KotlinBuilder - is Kotlin incremental compilation enabled for JVM: true
+2023-04-04 14:46:26,281 [   1583]   INFO - #o.j.k.j.b.KotlinBuilder - is Kotlin incremental compilation enabled for JS: true
+2023-04-04 14:46:26,286 [   1588]   INFO - #o.j.k.j.b.KotlinBuilder - is Kotlin compiler daemon enabled: true
+2023-04-04 14:46:26,287 [   1589]   INFO - #o.j.k.j.b.KotlinBuilder - Label in local history: build started 4bd1292c
+2023-04-04 14:46:26,296 [   1598]   INFO - #o.j.j.b.i.CompilerReferenceIndex - backward reference index version doesn't exist
+2023-04-04 14:46:26,299 [   1601]   INFO - #o.j.j.b.i.CompilerReferenceIndex - backward reference index version doesn't exist
+2023-04-04 14:46:26,364 [   1666]   INFO - #o.j.j.i.IncProjectBuilder - Cleaned output directories in 36 ms
+2023-04-04 14:46:26,581 [   1883]   INFO - #o.j.k.j.b.KotlinBuilder - KotlinTargetsIndex created in 41 ms
+2023-04-04 14:46:26,595 [   1897]   INFO - #o.j.k.j.b.KotlinBuilder - Total Kotlin global compile context initialization time: 56 ms
+2023-04-04 14:46:27,350 [   2652]   INFO - #o.j.j.i.j.JavaBuilder - Compiling 6 java files; module: untitled
+2023-04-04 14:46:30,284 [   5586]   INFO - #o.j.j.i.Builder - Dependency analysis found 0 affected files
+2023-04-04 14:46:30,584 [   5886]   INFO - #o.j.j.c.BuildSession - Build duration: Builder 'IntelliLang pattern validator' took 63 ms; 0 sources processed
+2023-04-04 14:46:30,586 [   5888]   INFO - #o.j.j.c.BuildSession - Build duration: Builder 'Java' took 2 s 902 ms; 6 sources processed (483 ms per file)
+2023-04-04 14:46:30,586 [   5888]   INFO - #o.j.j.c.BuildSession - Build duration: Builder 'Kotlin Builder' took 712 ms; 0 sources processed
+2023-04-04 14:46:30,586 [   5888]   INFO - #o.j.j.c.BuildSession - Build duration: Builder 'NotNull instrumentation' took 107 ms; 0 sources processed
+2023-04-04 14:46:30,591 [   5893]   INFO - #o.j.j.i.j.JavaBuilder - javac 11.0.17 was used to compile [untitled]
+2023-04-04 14:46:31,014 [      3]   INFO - #o.j.j.c.BuildMain - ==================================================
+2023-04-04 14:46:31,071 [     60]   INFO - #o.j.j.c.BuildMain - Build process started. Classpath: /Users/tangqiao/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2022.1.4/e3ffd300c9b86b78a24cd23fdc358ac8493afdf5/ideaIC-2022.1.4/plugins/java/lib/jps-launcher.jar
+2023-04-04 14:46:31,476 [    465]   INFO - #o.j.j.c.BuildMain - Connection to IDE established in 373 ms
+2023-04-04 14:46:32,885 [   1874]   INFO - #c.i.j.JnaLoader - JNA library (64-bit) loaded in 1386 ms
+2023-04-04 14:46:32,961 [   1950]   INFO - #o.j.j.c.JpsModelLoaderImpl - Loading model: project path = /Users/tangqiao/IdeaProjects/jmh_1, global options path = /Users/tangqiao/IdeaProjects/firstPlugin/jmh_plugin1/build/idea-sandbox/config/options
+2023-04-04 14:46:33,421 [   2410]   INFO - #o.j.j.c.JpsModelLoaderImpl - Model loaded in 459 ms
+2023-04-04 14:46:33,424 [   2413]   INFO - #o.j.j.c.JpsModelLoaderImpl - Project has 2 modules, 13 libraries
+2023-04-04 14:46:34,046 [   3035]   INFO - #c.i.u.i.FilePageCache - lower=100; upper=500; buffer=10; max=680
+2023-04-04 14:46:34,385 [   3374]   INFO - #o.j.j.c.BuildMain - Pre-loaded process ready in 3372 ms
+2023-04-04 14:50:54,254 [ 263243]   INFO - #o.j.j.c.BuildMain - Build canceled, but no build session is running. Exiting.

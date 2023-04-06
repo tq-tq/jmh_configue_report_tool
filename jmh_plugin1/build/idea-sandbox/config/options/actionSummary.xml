@@ -1,0 +1,118 @@
+<application>
+  <component name="ActionsLocalSummary">
+    <e n="$Copy">
+      <i c="1" l="1680768733366" />
+    </e>
+    <e n="$SelectAll">
+      <i c="1" l="1680766043379" />
+    </e>
+    <e n="$Undo">
+      <i c="29" l="1680423679162" />
+    </e>
+    <e n="ActivateConfigueToolToolWindow">
+      <i c="4" l="1680525236926" />
+    </e>
+    <e n="CommentByLineComment">
+      <i c="2" l="1680423666662" />
+    </e>
+    <e n="EditorBackSpace">
+      <i c="48" l="1680769699794" />
+    </e>
+    <e n="EditorChooseLookupItem">
+      <i c="2" l="1680699597372" />
+    </e>
+    <e n="EditorCopy">
+      <i c="3" l="1680699583210" />
+    </e>
+    <e n="EditorEnter">
+      <i c="3" l="1680699581027" />
+    </e>
+    <e n="EditorPaste">
+      <i c="2" l="1680699581309" />
+    </e>
+    <e n="Generate">
+      <i c="32" l="1680423711284" />
+    </e>
+    <e n="GotoAction">
+      <i c="1" l="1680761610221" />
+    </e>
+    <e n="MinimizeCurrentWindow">
+      <i c="2" l="1680423705534" />
+    </e>
+    <e n="PsiViewerForContext">
+      <i c="2" l="1680680118237" />
+    </e>
+    <e n="SaveAll">
+      <i c="7" l="1680697209760" />
+    </e>
+    <e n="ShowProjectStructureSettings">
+      <i c="1" l="1680422161491" />
+    </e>
+    <e n="ToggleLineBreakpoint">
+      <i c="2" l="1680605078568" />
+    </e>
+    <e n="Tree-selectNext">
+      <i c="1" l="1680416193524" />
+    </e>
+    <e n="UiInspector">
+      <i c="11" l="1680768702226" />
+    </e>
+    <e n="WelcomeScreen.OpenProject">
+      <i c="2" l="1680352936865" />
+    </e>
+    <e n="com.intellij.diagnostic.IdeMessagePanel$4">
+      <i c="1" l="1680423614289" />
+    </e>
+    <e n="com.intellij.execution.lineMarker.LineMarkerActionWrapper">
+      <i c="1" l="1680590781453" />
+    </e>
+    <e n="com.intellij.ide.ReopenProjectAction">
+      <i c="7" l="1680771919083" />
+    </e>
+    <e n="com.intellij.ide.actions.ToolWindowViewModeAction">
+      <i c="5" l="1680774306016" />
+    </e>
+    <e n="com.intellij.ide.util.MemberChooser$CollapseAllAction">
+      <i c="13" l="1680604863562" />
+    </e>
+    <e n="com.intellij.ide.util.MemberChooser$ExpandAllAction">
+      <i c="8" l="1680604862903" />
+    </e>
+    <e n="com.intellij.ide.util.MemberChooser$SortEmAction">
+      <i c="6" l="1680604861454" />
+    </e>
+    <e n="com.intellij.notification.NotificationAction$Simple">
+      <i c="1" l="1680516548338" />
+    </e>
+    <e n="com.intellij.openapi.fileEditor.impl.tabActions.CloseTab">
+      <i c="1" l="1680353167380" />
+    </e>
+    <e n="com.intellij.openapi.wm.impl.DockToolWindowAction">
+      <i c="2" l="1680611935873" />
+    </e>
+    <e n="com.intellij.openapi.wm.impl.ToolWindowImpl$HideAction">
+      <i c="1" l="1680514952160" />
+    </e>
+    <e n="com.intellij.openapi.wm.impl.ToolWindowImpl$RemoveStripeButtonAction">
+      <i c="1" l="1680514967310" />
+    </e>
+    <e n="com.intellij.toolWindow.ToolWindowHeader$HideAction">
+      <i c="6" l="1680774323635" />
+    </e>
+    <e n="com.intellij.toolWindow.ToolWindowHeader$ShowOptionsAction">
+      <i c="4" l="1680774323130" />
+    </e>
+    <e n="com.intellij.ui.CommonActionsPanel$AddButton">
+      <i c="21" l="1680766243993" />
+    </e>
+    <e n="com.intellij.ui.CommonActionsPanel$DownButton">
+      <i c="1" l="1680614050884" />
+    </e>
+    <e n="com.intellij.ui.CommonActionsPanel$RemoveButton">
+      <i c="1" l="1680613533885" />
+    </e>
+    <e n="com.intellij.xdebugger.impl.breakpoints.RemoveBreakpointGutterIconAction">
+      <i c="1" l="1680605126668" />
+    </e>
+  </component>
+</application>

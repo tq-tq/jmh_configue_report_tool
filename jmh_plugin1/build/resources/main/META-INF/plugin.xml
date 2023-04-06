@@ -1,0 +1,32 @@
+<!-- Copyright 2000-2022 JetBrains s.r.o. and other contributors. Use of this source code is governed by the Apache 2.0 license that can be found in the LICENSE file. -->
+<!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
+<idea-plugin>
+  <version>2.0.0</version>
+  <idea-version since-build="221" until-build="223.*" />
+  <!-- Unique id for this plugin. Must stay constant for the life of the plugin. -->
+  <id>tq.jmh.plugin</id>
+  <!-- Text to display as name on Preferences/Settings | Plugin page -->
+  <name>JMH Benchmark Generate and Report</name>
+  <!-- Product and plugin compatibility requirements -->
+  <depends>com.intellij.modules.platform</depends>
+  <depends>com.intellij.java</depends>
+  <!-- Text to display as description on Preferences/Settings | Plugin page -->
+  <description><![CDATA[Help generate JMH Benchmark annotation, method, class.
+      Run and Report JMH benchmark.]]></description>
+  <change-notes><![CDATA[<ul>
+        <li><b>1.0.0</b>build1</li>
+      </ul>]]></change-notes>
+  <!-- Text to display as company information on Preferences/Settings | Plugin page -->
+  <vendor>494369894@qq.com</vendor>
+  <actions>
+    <action id="generateMicroBenchmark" class="tq.jmhplugin.myAction.GenerateBenchmarkMethodAction" text="Generate JMH Benchmark" description="Generates benchmark" icon="AllIcons.General.Add">
+      <add-to-group group-id="GenerateGroup" anchor="first" />
+    </action>
+    <action id="generateBenchmarkAnnotation" class="tq.jmhplugin.myAction.GenerateBenchmarkAnnotationAction" text="Set Benchmark Method" description="Generates benchmark annotation" icon="AllIcons.General.Add">
+      <add-to-group group-id="EditorPopupMenu" anchor="first" />
+    </action>
+  </actions>
+  <extensions defaultExtensionNs="com.intellij">
+    <toolWindow id="JMH Configue Tool" icon="AllIcons.Ide.ConfigFile" factoryClass="tq.jmhplugin.runConfigue.ConfigToolWindowFactory" />
+  </extensions>
+</idea-plugin>

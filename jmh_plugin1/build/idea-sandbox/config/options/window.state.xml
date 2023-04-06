@@ -1,0 +1,34 @@
+<application>
+  <component name="DimensionService">
+    <location key="UiInspectorWindow.0.0.2880.1800@192dpi" x="662" y="714" />
+    <size key="#com.intellij.internal.psiView.PsiViewerDialog.0.0.2880.1800@192dpi" width="1600" height="1200" />
+    <size key="GridCell.Tab.0.left.0.0.2880.1800@192dpi" width="2636" height="428" />
+    <size key="GridCell.Tab.0.center.0.0.2880.1800@192dpi" width="2636" height="428" />
+    <size key="GridCell.Tab.0.right.0.0.2880.1800@192dpi" width="2636" height="428" />
+    <size key="GridCell.Tab.0.bottom.0.0.2880.1800@192dpi" width="2636" height="428" />
+    <size key="UiInspectorWindow.0.0.2880.1800@192dpi" width="2756" height="984" />
+  </component>
+  <component name="WindowManager">
+    <frame x="78" y="164" width="1362" height="736" />
+  </component>
+  <component name="WindowStateApplicationService">
+    <state width="1071" height="298" key="ShowUsagesActions.dimensionServiceKey" timestamp="1680614039149">
+      <screen x="54" y="25" width="1386" height="875" />
+    </state>
+    <state width="1071" height="298" key="ShowUsagesActions.dimensionServiceKey/54.25.1386.875" timestamp="1680614039149" />
+    <state x="331" y="357" width="1378" height="492" key="UiInspectorWindow" timestamp="1680768779301">
+      <screen x="62" y="25" width="1378" height="875" />
+    </state>
+    <state x="56" y="25" width="1378" height="492" key="UiInspectorWindow/56.25.1384.875" timestamp="1680761665715" />
+    <state x="58" y="25" width="1378" height="492" key="UiInspectorWindow/58.25.1382.875" timestamp="1680762291977" />
+    <state x="60" y="25" width="1378" height="492" key="UiInspectorWindow/60.25.1380.875" timestamp="1680766044935" />
+    <state x="331" y="357" width="1378" height="492" key="UiInspectorWindow/62.25.1378.875" timestamp="1680768779301" />
+    <state x="748" y="425" width="803" height="650" key="WELCOME_SCREEN" timestamp="1680775386075">
+      <screen x="58" y="25" width="1382" height="875" />
+    </state>
+    <state x="747" y="425" width="805" height="650" key="WELCOME_SCREEN/56.25.1384.875" timestamp="1680771906745" />
+    <state x="748" y="425" width="803" height="650" key="WELCOME_SCREEN/58.25.1382.875" timestamp="1680775386075" />
+    <state x="749" y="425" width="803" height="650" key="WELCOME_SCREEN/60.25.1380.875" timestamp="1680514858985" />
+    <state x="750" y="425" width="800" height="650" key="WELCOME_SCREEN/62.25.1378.875" timestamp="1680414419407" />
+  </component>
+</application>
