@@ -7,6 +7,16 @@
             <ProjectPluginTracker />
           </value>
         </entry>
+        <entry key="2O5ObpaSSgZW2JHYHT4hGziGmOV">
+          <value>
+            <ProjectPluginTracker />
+          </value>
+        </entry>
+        <entry key="2OHL72gV3AxCTgiUXtoDgeDfK9v">
+          <value>
+            <ProjectPluginTracker />
+          </value>
+        </entry>
       </map>
     </trackers>
   </component>
@@ -16,20 +26,23 @@
     "InstalledPluginsSearchHistory": "jm\nj",
     "MemberChooser.copyJavadoc": "false",
     "MemberChooser.showClasses": "true",
-    "NextRunPlatformUpdateBuild": "IC-231.8109.175/2023.1",
-    "NextRunPlatformUpdateVersion": "2023.1",
+    "NextRunPlatformUpdateBuild": "IC-231.8770.65/2023.1.1",
+    "NextRunPlatformUpdateVersion": "2023.1.1",
     "PluginConfigurable.selectionTab": "1",
     "RunOnceActivity.se.text.search": "true",
     "build.toolwindow.Build Output.selection.state": "com.intellij.build.BuildTreeConsoleView",
     "build.toolwindow.Sync.selection.state": "com.intellij.build.BuildTreeConsoleView",
     "bundled.plugins.list.saved.version": "IC-221.6008.13",
+    "com.intellij.ide.projectWizard.generators.JavaNewProjectWizard$Step.selectedStep": "Maven",
+    "com.intellij.ide.wizard.NewProjectWizardLanguageStep.selectedStep": "Java",
     "com.intellij.openapi.roots.ui.configuration.TabbedModuleEditor.selectedEditor": "Sources",
+    "decompiler.legal.notice.accepted": "true",
     "defaultJdkConfigured": "true",
     "defaultpackageserviceconfig.fulltext": "https://package-search.services.jetbrains.com/api/search/idea/fulltext",
     "defaultpackageserviceconfig.suggest": "https://package-search.services.jetbrains.com/api/search/idea/suggest",
-    "defaultpackageserviceconfig.updated.ts": "1680352977179",
+    "defaultpackageserviceconfig.updated.ts": "1683516056022",
     "eclipse.projects.detected": "",
-    "file.gist.reindex.count": "1",
+    "file.gist.reindex.count": "11",
     "fileTypeChangedCounter": "1",
     "got.it.tooltip.cwm.invitation.notification": "1",
     "gotit.previous.run": "IC-221.6008.13",
@@ -37,6 +50,8 @@
     "ide.updates.whats.new.shown.for": "221",
     "ignore.bundled.jre.m1.arch.message": "true",
     "installed.kotlin.plugin.version": "221-1.6.21-release-337-IJ6008.13",
+    "jdk.selected.JAVA_MODULE": "11",
+    "project.wizard.group": "newWizard.com.intellij.ide.wizard.NewProjectBuilder",
     "registry.to.advanced.settings.migration.build": "IC-221.6008.13",
     "tasks.pass.word.conversion.enforced": "true"
   },
@@ -51,5 +66,11 @@
 }]]></component>
   <component name="PsiViewerSettings">
     <option name="dialect" value="Language: JAVA" />
+  </component>
+  <component name="TerminalCommandHistoryManager">
+    <command-history-files>
+      <command-history-file filename="test-history" project-path="$USER_HOME$/IdeaProjects/jmh_1/test" last-access-time="1680940374856" />
+      <command-history-file filename="test2-history" project-path="$USER_HOME$/IdeaProjects/jmh_1/test2" last-access-time="1681212402669" />
+    </command-history-files>
   </component>
 </application>

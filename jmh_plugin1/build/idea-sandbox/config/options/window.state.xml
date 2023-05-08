@@ -9,7 +9,7 @@
     <size key="UiInspectorWindow.0.0.2880.1800@192dpi" width="2756" height="984" />
   </component>
   <component name="WindowManager">
-    <frame x="78" y="164" width="1362" height="736" />
+    <frame x="94" y="193" width="1165" height="685" />
   </component>
   <component name="WindowStateApplicationService">
     <state width="1071" height="298" key="ShowUsagesActions.dimensionServiceKey" timestamp="1680614039149">
@@ -23,12 +23,14 @@
     <state x="58" y="25" width="1378" height="492" key="UiInspectorWindow/58.25.1382.875" timestamp="1680762291977" />
     <state x="60" y="25" width="1378" height="492" key="UiInspectorWindow/60.25.1380.875" timestamp="1680766044935" />
     <state x="331" y="357" width="1378" height="492" key="UiInspectorWindow/62.25.1378.875" timestamp="1680768779301" />
-    <state x="748" y="425" width="803" height="650" key="WELCOME_SCREEN" timestamp="1680775386075">
+    <state x="748" y="425" width="803" height="650" key="WELCOME_SCREEN" timestamp="1681294873634">
       <screen x="58" y="25" width="1382" height="875" />
     </state>
-    <state x="747" y="425" width="805" height="650" key="WELCOME_SCREEN/56.25.1384.875" timestamp="1680771906745" />
-    <state x="748" y="425" width="803" height="650" key="WELCOME_SCREEN/58.25.1382.875" timestamp="1680775386075" />
-    <state x="749" y="425" width="803" height="650" key="WELCOME_SCREEN/60.25.1380.875" timestamp="1680514858985" />
-    <state x="750" y="425" width="800" height="650" key="WELCOME_SCREEN/62.25.1378.875" timestamp="1680414419407" />
+    <state x="746" y="425" width="806" height="650" key="WELCOME_SCREEN/53.25.1387.875" timestamp="1680958326575" />
+    <state x="746" y="425" width="807" height="650" key="WELCOME_SCREEN/54.25.1386.875" timestamp="1681142807300" />
+    <state x="747" y="425" width="805" height="650" key="WELCOME_SCREEN/56.25.1384.875" timestamp="1680854239024" />
+    <state x="748" y="425" width="803" height="650" key="WELCOME_SCREEN/58.25.1382.875" timestamp="1681294873634" />
+    <state x="749" y="425" width="803" height="650" key="WELCOME_SCREEN/60.25.1380.875" timestamp="1681206808767" />
+    <state x="751" y="425" width="800" height="650" key="WELCOME_SCREEN/62.25.1378.875" timestamp="1681015197899" />
   </component>
 </application>

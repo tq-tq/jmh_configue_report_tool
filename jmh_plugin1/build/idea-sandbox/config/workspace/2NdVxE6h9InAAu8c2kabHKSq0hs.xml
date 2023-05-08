@@ -7,24 +7,11 @@
     </option>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="-1">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/untitled/src/main/java/org/example/JmhTestApp1.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="566">
-              <caret line="56" column="26" selection-start-line="56" selection-start-column="26" selection-end-line="56" selection-end-column="26" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="-1" />
   </component>
   <component name="FileTypeUsageLocalSummary">
     <fileType name="JAVA">
-      <summary usageCount="39" lastUsed="1680774266695" />
+      <summary usageCount="45" lastUsed="1680851651769" />
     </fileType>
     <fileType name="XML">
       <summary usageCount="1" lastUsed="1680353164384" />
@@ -45,44 +32,27 @@
     </option>
   </component>
   <component name="MavenProjectNavigator">
+    <option name="groupStructurally" value="true" />
     <treeState>
-      <expand />
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="untitled" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="untitled" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
       <select />
     </treeState>
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1" />
     <panes>
+      <pane id="ProjectPane" />
       <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="jmh_1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jmh_1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jmh_1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jmh_1" type="462c0819:PsiDirectoryNode" />
-              <item name="untitled" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jmh_1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jmh_1" type="462c0819:PsiDirectoryNode" />
-              <item name="untitled" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jmh_1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jmh_1" type="462c0819:PsiDirectoryNode" />
-              <item name="untitled" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="Scope" />
     </panes>
   </component>
@@ -92,13 +62,12 @@
     </history>
   </component>
   <component name="ToolWindowManager">
-    <editor active="true" />
     <layout>
       <window_info id="Bookmarks" order="0" sideWeight="0.7155173" side_tool="true" weight="0.4181351" />
-      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.45219433" weight="0.27716595" />
+      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.45219433" visible="true" weight="0.27716595" />
       <window_info id="Learn" order="2" />
       <window_info active="true" x="343" y="106" width="531" height="565" id="Configue Tool" order="3" sideWeight="0.54780567" side_tool="true" type="WINDOWED" weight="0.4181351" />
-      <window_info active="true" x="534" y="322" width="449" height="529" id="JMH Configue Tool" order="4" type="WINDOWED" weight="0.33002937" />
+      <window_info x="598" y="43" width="449" height="638" id="JMH Configue Tool" order="4" weight="0.33516887" />
       <window_info id="Structure" order="5" sideWeight="0.7155173" side_tool="true" weight="0.4181351" />
       <window_info anchor="bottom" id="Version Control" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -111,15 +80,15 @@
       <window_info anchor="bottom" id="Services" order="8" />
       <window_info anchor="bottom" id="Build" order="9" />
       <window_info anchor="bottom" id="Dependencies" order="10" />
-      <window_info anchor="right" id="Maven" order="0" weight="0.33002937" />
+      <window_info anchor="right" id="Maven" order="0" visible="true" weight="0.33002937" />
       <window_info anchor="right" id="Notifications" order="1" weight="0.25" />
     </layout>
     <recentWindows>
-      <value>JMH Configue Tool</value>
       <value>Project</value>
-      <value>Configue Tool</value>
       <value>Maven</value>
+      <value>JMH Configue Tool</value>
       <value>Notifications</value>
+      <value>Configue Tool</value>
       <value>Structure</value>
       <value>Bookmarks</value>
       <value>Run</value>
@@ -130,20 +99,22 @@
       <screen x="60" y="25" width="1380" height="875" />
     </state>
     <state x="398" y="25" key="#Project_Structure/60.25.1380.875@60.25.1380.875" timestamp="1680352977389" />
-    <state x="720" y="158" key="#com.intellij.ide.util.MemberChooser" timestamp="1680766245455">
-      <screen x="62" y="25" width="1378" height="875" />
+    <state x="723" y="158" key="#com.intellij.ide.util.MemberChooser" timestamp="1680796713725">
+      <screen x="67" y="25" width="1373" height="875" />
     </state>
     <state x="716" y="158" key="#com.intellij.ide.util.MemberChooser/54.25.1386.875@54.25.1386.875" timestamp="1680697171106" />
     <state x="717" y="158" key="#com.intellij.ide.util.MemberChooser/56.25.1384.875@56.25.1384.875" timestamp="1680761795917" />
     <state x="718" y="158" key="#com.intellij.ide.util.MemberChooser/58.25.1382.875@58.25.1382.875" timestamp="1680762329648" />
     <state x="720" y="158" key="#com.intellij.ide.util.MemberChooser/62.25.1378.875@62.25.1378.875" timestamp="1680766245455" />
-    <state x="532" y="246" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1680773455830">
-      <screen x="58" y="25" width="1382" height="875" />
+    <state x="723" y="158" key="#com.intellij.ide.util.MemberChooser/67.25.1373.875@67.25.1373.875" timestamp="1680796713725" />
+    <state x="538" y="246" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1680796709504">
+      <screen x="67" y="25" width="1373" height="875" />
     </state>
     <state x="529" y="246" key="#com.intellij.ide.util.TreeClassChooserDialog/54.25.1386.875@54.25.1386.875" timestamp="1680697155077" />
     <state x="530" y="246" key="#com.intellij.ide.util.TreeClassChooserDialog/56.25.1384.875@56.25.1384.875" timestamp="1680761737632" />
     <state x="532" y="246" key="#com.intellij.ide.util.TreeClassChooserDialog/58.25.1382.875@58.25.1382.875" timestamp="1680773455830" />
     <state x="535" y="246" key="#com.intellij.ide.util.TreeClassChooserDialog/62.25.1378.875@62.25.1378.875" timestamp="1680766242312" />
+    <state x="538" y="246" key="#com.intellij.ide.util.TreeClassChooserDialog/67.25.1373.875@67.25.1373.875" timestamp="1680796709504" />
     <state x="462" y="116" width="800" height="600" key="#com.intellij.internal.psiView.PsiViewerDialog" timestamp="1680680200846">
       <screen x="56" y="25" width="1384" height="875" />
     </state>
@@ -185,8 +156,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/untitled/src/main/java/org/example/JmhTestApp1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="566">
-          <caret line="56" column="26" selection-start-line="56" selection-start-column="26" selection-end-line="56" selection-end-column="26" />
+        <state relative-caret-position="296">
+          <caret line="43" column="28" lean-forward="true" selection-start-line="43" selection-start-column="28" selection-end-line="43" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

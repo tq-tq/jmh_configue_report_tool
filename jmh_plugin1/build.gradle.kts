@@ -15,6 +15,9 @@ repositories {
 dependencies {
   implementation("org.openjdk.jmh", "jmh-core", version = "1.36")
   implementation("org.openjdk.jmh", "jmh-generator-annprocess", version = "1.36")
+  implementation("com.alibaba","fastjson", version = "1.2.67_noneautotype2")
+  implementation("commons-io","commons-io", version = "2.7")
+  implementation("org.jfree","jfreechart", version = "1.0.19")
 }
 
 // See https://github.com/JetBrains/gradle-intellij-plugin/

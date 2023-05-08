@@ -48,5 +48,9 @@
   <extensions defaultExtensionNs="com.intellij">
     <toolWindow id="JMH Configue Tool"  icon="AllIcons.Ide.ConfigFile"
                 factoryClass="tq.jmhplugin.runConfigue.ConfigToolWindowFactory" />
+    <toolWindow id="JMH Result Graph"  icon="AllIcons.Actions.Show"
+                factoryClass="tq.jmhplugin.graphReport.GraphToolWindowFactory" />
+    <notificationGroup id="runJmh.notification.tq.jmhplugin"
+                       displayType="BALLOON"/>
   </extensions>
 </idea-plugin>

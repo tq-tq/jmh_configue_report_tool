@@ -4,6 +4,6 @@ Build-JVM: 11.0.17 (Oracle Corporation 11.0.17+10-LTS-269)
 Version: 2.0.0
 Build-Plugin: Gradle IntelliJ Plugin
 Build-Plugin-Version: 1.13.2
-Build-OS: Mac OS X 13.3 x86_64
+Build-OS: Mac OS X 13.3.1 x86_64
 Build-SDK: IC-2022.1.4
 

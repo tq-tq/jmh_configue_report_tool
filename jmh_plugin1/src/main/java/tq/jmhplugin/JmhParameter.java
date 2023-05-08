@@ -1,37 +1,27 @@
 package tq.jmhplugin;
 
 import com.intellij.codeInsight.generation.PsiMethodMember;
+import com.intellij.execution.ExecutionException;
+import com.intellij.execution.configurations.GeneralCommandLine;
+import com.intellij.notification.*;
 import com.intellij.openapi.project.Project;
 import com.intellij.psi.PsiClass;
-import com.intellij.psi.PsiMethod;
 import com.intellij.ui.CollectionListModel;
-import org.openjdk.jmh.annotations.Benchmark;
-import org.openjdk.jmh.annotations.BenchmarkMode;
 import org.openjdk.jmh.annotations.Mode;
-import org.openjdk.jmh.annotations.Warmup;
+import org.openjdk.jmh.runner.RunnerException;
 import org.openjdk.jmh.runner.options.TimeValue;
-import tq.jmhplugin.runConfigue.ConfigurationUtils;
 
-import java.util.Arrays;
-import java.util.LinkedList;
-import java.util.List;
+import java.io.IOException;
+import java.nio.charset.StandardCharsets;
+import java.util.*;
 import java.util.concurrent.TimeUnit;
 
 public class JmhParameter {
-
-    private static JmhParameter jmhParameter;
     private static Project project;
     private static PsiClass selectedClass;
     private static final CollectionListModel<String> methodMemberListModel = new CollectionListModel<>();
-
-    private static Mode mode = Mode.AverageTime;
-    private static int warmupIterations = 5;
-    private static TimeValue warmupTime = TimeValue.seconds(1);
-    private static int measurementIterations = 5;
-    private static TimeValue measurementTime = TimeValue.seconds(1);
-    private static TimeUnit timeUnit = TimeUnit.NANOSECONDS;
-    private static int forks = 3;
-    List<PsiMethod> psiMethodList = new LinkedList<PsiMethod>();
+    public static int flag;
+    public static final String JMH_ANNOTATION_NAME = "org.openjdk.jmh.annotations.Benchmark";
 
     public static CollectionListModel<String> getMethodMemberListModel() {
         return methodMemberListModel;
@@ -51,10 +41,10 @@ public class JmhParameter {
     }
 
     public static PsiMethodMember[] searchJMHMethodMember(PsiClass cls) {
-        if(cls==null)
+        if (cls == null)
             return null;
         return Arrays.stream(cls.getMethods())
-                .filter(method -> method.hasAnnotation(ConfigurationUtils.JMH_ANNOTATION_NAME))
+                .filter(method -> method.hasAnnotation(JMH_ANNOTATION_NAME))
                 .map(PsiMethodMember::new).toArray(PsiMethodMember[]::new);
     }
 
@@ -62,13 +52,55 @@ public class JmhParameter {
         JmhParameter.project = project;
     }
 
+    public static class JMHParameters {
+        Mode mode;
+        int warmupIterations;
+        TimeValue warmupTime;
+        int measurementIterations;
+        TimeValue measurementTime;
+        TimeUnit timeUnit;
+        int forks;
 
-    public static JmhParameter getJmhParameter() {
-        if(jmhParameter == null)
-        {
-            jmhParameter = new JmhParameter();
+        public JMHParameters(Mode mode, int warmupIterations, TimeValue warmupTime, int measurementIterations, TimeValue measurementTime, TimeUnit timeUnit, int forks) {
+            this.mode = mode;
+            this.warmupIterations = warmupIterations;
+            this.warmupTime = warmupTime;
+            this.measurementIterations = measurementIterations;
+            this.measurementTime = measurementTime;
+            this.timeUnit = timeUnit;
+            this.forks = forks;
         }
-        return jmhParameter;
     }
 
+    public static void runJmhTest(JMHParameters jmhParameters) throws RunnerException, ExecutionException, InterruptedException, IOException, RuntimeException {
+        //java -jar target/benchmarks.jar org.sample.JmhTestApp1.arrayListAdd -bm thrpt -f 1 -i 5 -r 1s -tu ms -w 1s -wi 5 -rf json
+        flag=1;
+        GeneralCommandLine generalCommandLine = new GeneralCommandLine("java");
+        ArrayList<String> parameters = new ArrayList<>(Arrays.asList("-jar", "target/benchmarks.jar"));
+        parameters.addAll(methodMemberListModel.getItems());
+        parameters.addAll(Arrays.asList("-bm", jmhParameters.mode.shortLabel(),
+                "-f", String.valueOf(jmhParameters.forks),
+                "-i", String.valueOf(jmhParameters.measurementIterations),
+                "-r", jmhParameters.measurementTime.toString().replace(" ", ""),
+                "-tu", TimeValue.tuToString(jmhParameters.timeUnit),
+                "-w", jmhParameters.warmupTime.toString().replace(" ", ""),
+                "-wi", String.valueOf(jmhParameters.warmupIterations),
+                "-rf","json",
+                "-rff","jmhOut.json",
+                "-o", "jmhReadableResult.txt"));
+        generalCommandLine.addParameters(parameters);
+        generalCommandLine.setCharset(StandardCharsets.UTF_8);
+        generalCommandLine.setWorkDirectory(project.getBasePath());
+        Process process = generalCommandLine.createProcess();
+        process.onExit().thenAccept((Process p)-> {
+            flag=0;
+            NotificationGroup notificationGroup = NotificationGroupManager.getInstance().getNotificationGroup(
+                    "runJmh.notification.tq.jmhplugin");
+            Notification notification = notificationGroup.createNotification("Attention",
+                    "Finish running JMH test and create JSON file",
+                    NotificationType.INFORMATION);
+            Notifications.Bus.notify(notification);
+        });
+        process.getInputStream();
+    }
 }

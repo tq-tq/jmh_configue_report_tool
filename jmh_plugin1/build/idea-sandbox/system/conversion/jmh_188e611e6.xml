@@ -3,24 +3,10 @@
     <converter id="kotlin-non-jvm-source-roots" />
   </applied-converters>
   <project-files>
-    <f p="./.idea/libraries/Maven__org_checkerframework_checker_qual_3_12_0.xml" t="1680688715" />
     <f p="./.idea/jarRepositories.xml" t="1679994223" />
-    <f p="./.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_3.xml" t="1680688715" />
-    <f p="./.idea/libraries/Maven__com_google_guava_failureaccess_1_0_1.xml" t="1680688715" />
-    <f p="./.idea/libraries/Maven__org_openjdk_jmh_jmh_generator_annprocess_1_36.xml" t="1680695708" />
-    <f p="./.idea/workspace.xml" t="1680775383" />
-    <f p="./.idea/encodings.xml" t="1679994223" />
-    <f p="./.idea/compiler.xml" t="1679994223" />
-    <f p="./.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_11_0.xml" t="1680688715" />
-    <f p="./.idea/libraries/Maven__net_sf_jopt_simple_jopt_simple_5_0_4.xml" t="1679994223" />
-    <f p="./.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_2.xml" t="1680688715" />
-    <f p="./.idea/jmh_1.iml" t="1680593337" />
-    <f p="./.idea/libraries/Maven__com_google_guava_listenablefuture_9999_0_empty_to_avoid_conflict_with_guava.xml" t="1680688715" />
-    <f p="./.idea/libraries/Maven__org_openjdk_jmh_jmh_core_1_36.xml" t="1679994223" />
-    <f p="./.idea/modules.xml" t="1679994223" />
-    <f p="./.idea/misc.xml" t="1680519801" />
-    <f p="./untitled/untitled.iml" t="1680744384" />
-    <f p="./.idea/libraries/Maven__com_google_guava_guava_31_1_jre.xml" t="1680688715" />
-    <f p="./.idea/libraries/Maven__org_apache_commons_commons_math3_3_2.xml" t="1679994223" />
+    <f p="./.idea/workspace.xml" t="1680954251" />
+    <f p="./.idea/encodings.xml" t="1680844615" />
+    <f p="./.idea/compiler.xml" t="1680954243" />
+    <f p="./.idea/misc.xml" t="1680851781" />
   </project-files>
 </conversion>
