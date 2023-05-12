@@ -36,11 +36,14 @@ public class GenerateBenchmarkAnnotationAction extends AnAction {
         Editor editor = e.getData(CommonDataKeys.EDITOR);
         int offset = editor.getCaretModel().getOffset();
         PsiFile psiFile = e.getData(CommonDataKeys.PSI_FILE);
-        PsiElement element = psiFile.findElementAt(offset);
-        PsiMethod containingMethod = null;
-        if (element != null) {
-            containingMethod = PsiTreeUtil.getParentOfType(element, PsiMethod.class);}
-        e.getPresentation().setEnabledAndVisible(containingMethod != null);
+        if(psiFile!=null){
+            PsiElement element = psiFile.findElementAt(offset);
+            PsiMethod containingMethod = null;
+            if (element != null) {
+                containingMethod = PsiTreeUtil.getParentOfType(element, PsiMethod.class);}
+            e.getPresentation().setEnabledAndVisible(containingMethod != null);
+        }
+
     }
 
 }

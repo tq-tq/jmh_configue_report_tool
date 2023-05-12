@@ -4,7 +4,7 @@
       <i c="4" l="1681119744384" />
     </e>
     <e n="$Delete">
-      <i c="19" l="1681295098394" />
+      <i c="20" l="1683537270590" />
     </e>
     <e n="$Paste">
       <i c="1" l="1680872230200" />
@@ -13,37 +13,46 @@
       <i c="1" l="1680766043379" />
     </e>
     <e n="$Undo">
-      <i c="36" l="1681294988384" />
+      <i c="49" l="1683809271362" />
     </e>
     <e n="ActivateConfigueToolToolWindow">
       <i c="4" l="1680525236926" />
+    </e>
+    <e n="ActivateRunToolWindow">
+      <i c="1" l="1683630967911" />
     </e>
     <e n="CollapseAll">
       <i c="1" l="1680860460806" />
     </e>
     <e n="CollapseAllRegions">
-      <i c="8" l="1683533848498" />
+      <i c="12" l="1683803827959" />
     </e>
     <e n="CollapseRegion">
-      <i c="3" l="1683533848487" />
+      <i c="5" l="1683803827953" />
     </e>
     <e n="CommentByLineComment">
       <i c="2" l="1680423666662" />
     </e>
     <e n="EditorBackSpace">
-      <i c="93" l="1681304632286" />
+      <i c="116" l="1683812563368" />
     </e>
     <e n="EditorChooseLookupItem">
       <i c="3" l="1680856667369" />
     </e>
     <e n="EditorCopy">
-      <i c="9" l="1683525960345" />
+      <i c="11" l="1683803073972" />
+    </e>
+    <e n="EditorCut">
+      <i c="1" l="1683803074543" />
+    </e>
+    <e n="EditorDown">
+      <i c="1" l="1683803090448" />
     </e>
     <e n="EditorEnter">
-      <i c="5" l="1681304556817" />
+      <i c="9" l="1683803063327" />
     </e>
     <e n="EditorPaste">
-      <i c="2" l="1680699581309" />
+      <i c="3" l="1683803075343" />
     </e>
     <e n="EditorToggleColumnMode">
       <i c="1" l="1681120125713" />
@@ -54,14 +63,20 @@
     <e n="ExternalSystem.ProjectRefreshAction">
       <i c="1" l="1681213171097" />
     </e>
+    <e n="FindInPath">
+      <i c="2" l="1683630875836" />
+    </e>
     <e n="Generate">
-      <i c="36" l="1681304572158" />
+      <i c="65" l="1683809264778" />
     </e>
     <e n="GotoAction">
       <i c="1" l="1680761610221" />
     </e>
     <e n="GotoDeclaration">
       <i c="10" l="1681213621330" />
+    </e>
+    <e n="IntroduceField">
+      <i c="1" l="1683537836349" />
     </e>
     <e n="MinimizeCurrentWindow">
       <i c="2" l="1680423705534" />
@@ -71,6 +86,9 @@
     </e>
     <e n="NewProject">
       <i c="1" l="1681212357494" />
+    </e>
+    <e n="NextTemplateVariable">
+      <i c="2" l="1683809269507" />
     </e>
     <e n="OpenFile">
       <i c="2" l="1680851768520" />
@@ -82,7 +100,7 @@
       <i c="2" l="1680680118237" />
     </e>
     <e n="SaveAll">
-      <i c="8" l="1680856670023" />
+      <i c="9" l="1683803068579" />
     </e>
     <e n="SelectInProjectView">
       <i c="2" l="1681213624349" />
@@ -90,8 +108,11 @@
     <e n="ShowProjectStructureSettings">
       <i c="1" l="1680422161491" />
     </e>
+    <e n="ToggleFullScreen">
+      <i c="10" l="1683631043267" />
+    </e>
     <e n="ToggleLineBreakpoint">
-      <i c="4" l="1681142532610" />
+      <i c="6" l="1683536120627" />
     </e>
     <e n="Tree-selectChild">
       <i c="1" l="1680860436505" />
@@ -106,13 +127,13 @@
       <i c="2" l="1680352936865" />
     </e>
     <e n="com.intellij.diagnostic.IdeMessagePanel$4">
-      <i c="2" l="1681142618029" />
+      <i c="3" l="1683536188443" />
     </e>
     <e n="com.intellij.execution.lineMarker.LineMarkerActionWrapper">
       <i c="1" l="1680590781453" />
     </e>
     <e n="com.intellij.ide.ReopenProjectAction">
-      <i c="15" l="1681294910859" />
+      <i c="18" l="1683803002863" />
     </e>
     <e n="com.intellij.ide.actions.ToolWindowViewModeAction">
       <i c="8" l="1680795894187" />
@@ -130,7 +151,10 @@
       <i c="2" l="1680851749544" />
     </e>
     <e n="com.intellij.openapi.fileEditor.impl.tabActions.CloseTab">
-      <i c="21" l="1683533855024" />
+      <i c="26" l="1683630885990" />
+    </e>
+    <e n="com.intellij.openapi.project.DumbAwareAction$SimpleDumbAwareAction">
+      <i c="2" l="1683630877709" />
     </e>
     <e n="com.intellij.openapi.wm.impl.DockToolWindowAction">
       <i c="7" l="1683531425936" />
@@ -142,19 +166,19 @@
       <i c="1" l="1680514967310" />
     </e>
     <e n="com.intellij.toolWindow.ToolWindowHeader$HideAction">
-      <i c="24" l="1683523934925" />
+      <i c="32" l="1683812569382" />
     </e>
     <e n="com.intellij.toolWindow.ToolWindowHeader$ShowOptionsAction">
       <i c="9" l="1680856571374" />
     </e>
     <e n="com.intellij.ui.CommonActionsPanel$AddButton">
-      <i c="57" l="1683533653635" />
+      <i c="62" l="1683812542157" />
     </e>
     <e n="com.intellij.ui.CommonActionsPanel$DownButton">
       <i c="1" l="1680614050884" />
     </e>
     <e n="com.intellij.ui.CommonActionsPanel$RemoveButton">
-      <i c="4" l="1681206922016" />
+      <i c="5" l="1683536163526" />
     </e>
     <e n="com.intellij.ui.dsl.builder.impl.SegmentedButtonAction">
       <i c="1" l="1681212383307" />
@@ -163,13 +187,13 @@
       <i c="1" l="1680605126668" />
     </e>
     <e n="editRunConfigurations">
-      <i c="1" l="1680925519720" />
+      <i c="2" l="1683715658533" />
     </e>
     <e n="generateBenchmarkAnnotation">
-      <i c="11" l="1683533647036" />
+      <i c="17" l="1683806502593" />
     </e>
     <e n="generateMicroBenchmark">
-      <i c="4" l="1681304576214" />
+      <i c="14" l="1683809265747" />
     </e>
     <e n="org.jetbrains.plugins.terminal.TerminalNewPredefinedSessionAction">
       <i c="1" l="1680859781965" />

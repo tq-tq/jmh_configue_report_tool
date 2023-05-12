@@ -1,7 +1,7 @@
 <!-- Copyright 2000-2022 JetBrains s.r.o. and other contributors. Use of this source code is governed by the Apache 2.0 license that can be found in the LICENSE file. -->
 <!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
 <idea-plugin>
-  <version>2.0.0</version>
+  <version>2.0.7</version>
   <idea-version since-build="221" until-build="223.*" />
   <!-- Unique id for this plugin. Must stay constant for the life of the plugin. -->
   <id>tq.jmh.plugin</id>
@@ -11,10 +11,15 @@
   <depends>com.intellij.modules.platform</depends>
   <depends>com.intellij.java</depends>
   <!-- Text to display as description on Preferences/Settings | Plugin page -->
-  <description><![CDATA[Help generate JMH Benchmark annotation, method, class.
-      Run and Report JMH benchmark.]]></description>
+  <description><![CDATA[Help generate JMH Benchmark annotation, method, class for Java projects. Moreover, help run and report JMH benchmark.
+      This tool is based on Java Benchmark Harness Plugin.<br>
+      <ul>
+        <li>By right-clicking, you can add @Benchmark annotation or benchmark code template.</li>
+        <li>Offer a tool window where you can set JMH parameters and run JMH test through clicking a button.</li>
+        <li>Offer a tool window which can use bar charts to visualize the JSON file containing JMH results.</li>
+      </ul>]]></description>
   <change-notes><![CDATA[<ul>
-        <li><b>1.0.0</b>build1</li>
+        <li><b>2.0.7</b>solve "file not null" error</li>
       </ul>]]></change-notes>
   <!-- Text to display as company information on Preferences/Settings | Plugin page -->
   <vendor>494369894@qq.com</vendor>

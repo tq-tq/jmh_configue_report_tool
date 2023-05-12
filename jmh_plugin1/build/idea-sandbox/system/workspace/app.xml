@@ -2214,6 +2214,10 @@
           {
             "pluginIdString": "com.cap.plugin.hadoop",
             "nullablePluginName": "Cap-Hadoop"
+          },
+          {
+            "pluginIdString": "com.intellij.bigdatatools.binary.files",
+            "nullablePluginName": "Big Data File Viewer"
           }
         ]
       },
@@ -2782,6 +2786,38 @@
           {
             "pluginIdString": "com.badahori.creatures.plugins.intellij.agenteering",
             "nullablePluginName": "Creatures CAOS and Agenteering"
+          }
+        ]
+      },
+      "*.c3": {
+        "dataSet": [
+          {
+            "pluginIdString": "org.c3lang.c3intellij",
+            "nullablePluginName": "C3 Language"
+          }
+        ]
+      },
+      "*.c3i": {
+        "dataSet": [
+          {
+            "pluginIdString": "org.c3lang.c3intellij",
+            "nullablePluginName": "C3 Language"
+          }
+        ]
+      },
+      "*.c3l": {
+        "dataSet": [
+          {
+            "pluginIdString": "org.c3lang.c3intellij",
+            "nullablePluginName": "C3 Language"
+          }
+        ]
+      },
+      "*.c3t": {
+        "dataSet": [
+          {
+            "pluginIdString": "org.c3lang.c3intellij",
+            "nullablePluginName": "C3 Language"
           }
         ]
       },
@@ -3893,6 +3929,10 @@
           {
             "pluginIdString": "com.intellij.bigdatatools",
             "nullablePluginName": "Big Data Tools"
+          },
+          {
+            "pluginIdString": "com.intellij.bigdatatools.binary.files",
+            "nullablePluginName": "Big Data File Viewer"
           }
         ]
       },
@@ -10572,6 +10612,10 @@
           {
             "pluginIdString": "com.cap.plugin.hadoop",
             "nullablePluginName": "Cap-Hadoop"
+          },
+          {
+            "pluginIdString": "com.intellij.bigdatatools.binary.files",
+            "nullablePluginName": "Big Data File Viewer"
           }
         ]
       },
@@ -10764,6 +10808,10 @@
           {
             "pluginIdString": "com.cap.plugin.hadoop",
             "nullablePluginName": "Cap-Hadoop"
+          },
+          {
+            "pluginIdString": "com.intellij.bigdatatools.binary.files",
+            "nullablePluginName": "Big Data File Viewer"
           }
         ]
       },
@@ -15597,6 +15645,10 @@
           {
             "pluginIdString": "com.intellij.bigdatatools",
             "nullablePluginName": "Big Data Tools"
+          },
+          {
+            "pluginIdString": "com.intellij.bigdatatools.binary.files",
+            "nullablePluginName": "Big Data File Viewer"
           }
         ]
       },
@@ -18615,7 +18667,7 @@
         ]
       }
     },
-    "lastUpdateTime": 1683516057674
+    "lastUpdateTime": 1683786890903
   },
   "dependencies": {
     "featureMap": {
@@ -18856,6 +18908,10 @@
           {
             "pluginIdString": "com.intellij.bigdatatools",
             "nullablePluginName": "Big Data Tools"
+          },
+          {
+            "pluginIdString": "com.intellij.bigdatatools.rfs",
+            "nullablePluginName": "Remote File Systems"
           }
         ]
       },
@@ -18896,6 +18952,10 @@
           {
             "pluginIdString": "com.intellij.bigdatatools",
             "nullablePluginName": "Big Data Tools"
+          },
+          {
+            "pluginIdString": "com.intellij.bigdatatools.rfs",
+            "nullablePluginName": "Remote File Systems"
           }
         ]
       },
@@ -18932,6 +18992,10 @@
           {
             "pluginIdString": "com.intellij.bigdatatools",
             "nullablePluginName": "Big Data Tools"
+          },
+          {
+            "pluginIdString": "com.intellij.bigdatatools.rfs",
+            "nullablePluginName": "Remote File Systems"
           }
         ]
       },
@@ -18996,6 +19060,14 @@
           {
             "pluginIdString": "net.javaru.idea.frc",
             "nullablePluginName": "FRC"
+          }
+        ]
+      },
+      "java:io.confluent:kafka-schema-registry-client": {
+        "dataSet": [
+          {
+            "pluginIdString": "com.intellij.bigdatatools.kafka",
+            "nullablePluginName": "Kafka"
           }
         ]
       },
@@ -19076,6 +19148,10 @@
           {
             "pluginIdString": "com.intellij.bigdatatools",
             "nullablePluginName": "Big Data Tools"
+          },
+          {
+            "pluginIdString": "com.intellij.bigdatatools.rfs",
+            "nullablePluginName": "Remote File Systems"
           }
         ]
       },
@@ -19324,6 +19400,10 @@
           {
             "pluginIdString": "com.intellij.bigdatatools",
             "nullablePluginName": "Big Data Tools"
+          },
+          {
+            "pluginIdString": "com.intellij.bigdatatools.rfs",
+            "nullablePluginName": "Remote File Systems"
           }
         ]
       },
@@ -19332,6 +19412,10 @@
           {
             "pluginIdString": "com.intellij.bigdatatools",
             "nullablePluginName": "Big Data Tools"
+          },
+          {
+            "pluginIdString": "com.intellij.bigdatatools.kafka",
+            "nullablePluginName": "Kafka"
           }
         ]
       },
@@ -19340,6 +19424,10 @@
           {
             "pluginIdString": "com.intellij.bigdatatools",
             "nullablePluginName": "Big Data Tools"
+          },
+          {
+            "pluginIdString": "com.intellij.bigdatatools.kafka",
+            "nullablePluginName": "Kafka"
           }
         ]
       },
@@ -19348,6 +19436,10 @@
           {
             "pluginIdString": "com.intellij.bigdatatools",
             "nullablePluginName": "Big Data Tools"
+          },
+          {
+            "pluginIdString": "com.intellij.bigdatatools.kafka",
+            "nullablePluginName": "Kafka"
           }
         ]
       },
@@ -19364,6 +19456,10 @@
           {
             "pluginIdString": "com.intellij.bigdatatools",
             "nullablePluginName": "Big Data Tools"
+          },
+          {
+            "pluginIdString": "com.intellij.bigdatatools.spark",
+            "nullablePluginName": "Spark"
           }
         ]
       },
@@ -19372,6 +19468,10 @@
           {
             "pluginIdString": "com.intellij.bigdatatools",
             "nullablePluginName": "Big Data Tools"
+          },
+          {
+            "pluginIdString": "com.intellij.bigdatatools.spark",
+            "nullablePluginName": "Spark"
           }
         ]
       },
@@ -19764,6 +19864,10 @@
           {
             "pluginIdString": "com.intellij.bigdatatools",
             "nullablePluginName": "Big Data Tools"
+          },
+          {
+            "pluginIdString": "com.intellij.bigdatatools.rfs",
+            "nullablePluginName": "Remote File Systems"
           }
         ]
       },
@@ -19772,6 +19876,14 @@
           {
             "pluginIdString": "AngularJS",
             "nullablePluginName": "Angular and AngularJS"
+          }
+        ]
+      },
+      "javascript:npm:@kafkajs/confluent-schema-registry": {
+        "dataSet": [
+          {
+            "pluginIdString": "com.intellij.bigdatatools.kafka",
+            "nullablePluginName": "Kafka"
           }
         ]
       },
@@ -19799,6 +19911,14 @@
           }
         ]
       },
+      "javascript:npm:kafkajs": {
+        "dataSet": [
+          {
+            "pluginIdString": "com.intellij.bigdatatools.kafka",
+            "nullablePluginName": "Kafka"
+          }
+        ]
+      },
       "javascript:npm:karma": {
         "dataSet": [
           {
@@ -19812,6 +19932,14 @@
           {
             "pluginIdString": "intellij.nextjs",
             "nullablePluginName": "Next.js Support"
+          }
+        ]
+      },
+      "javascript:npm:node-rdkafka": {
+        "dataSet": [
+          {
+            "pluginIdString": "com.intellij.bigdatatools.kafka",
+            "nullablePluginName": "Kafka"
           }
         ]
       },
@@ -19944,7 +20072,7 @@
         ]
       }
     },
-    "lastUpdateTime": 1683516058388
+    "lastUpdateTime": 1683786891663
   }
 }]]></component>
   <component name="PluginFeatureService">{

@@ -27,9 +27,14 @@ public class GenerateBenchmarkMethodAction extends BaseGenerateAction {
     public void update(@NotNull AnActionEvent e) {
         final Editor editor = e.getRequiredData(CommonDataKeys.EDITOR);
         PsiFile psiFile = e.getData(CommonDataKeys.PSI_FILE);
-        PsiClass targetClass = findTargetClass(editor, psiFile);
-        PsiMethod targetMethod = findTargetMethod(editor, psiFile);
-        e.getPresentation().setEnabledAndVisible(targetClass != null || targetMethod != null);
+        if(psiFile != null)
+        {
+            PsiClass targetClass = findTargetClass(editor, psiFile);
+            PsiMethod targetMethod = findTargetMethod(editor, psiFile);
+            e.getPresentation().setEnabledAndVisible(targetClass != null || targetMethod != null);
+        }
+        else e.getPresentation().setEnabledAndVisible(false);
+
     }
 
 }

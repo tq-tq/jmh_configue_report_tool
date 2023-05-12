@@ -1261,7 +1261,7 @@
     {
       "groupId": "androidx.compose",
       "artifactId": "compose-bom",
-      "version": "2023.05.00",
+      "version": "2023.05.01",
       "ktxTargets": [],
       "fqcns": []
     },
@@ -1558,7 +1558,7 @@
     {
       "groupId": "androidx.compose.animation",
       "artifactId": "animation-tooling-internal",
-      "version": "1.5.0-alpha03",
+      "version": "1.5.0-alpha04",
       "ktxTargets": [],
       "fqcns": [
         "androidx.compose.animation.tooling.ComposeAnimatedProperty",
@@ -2333,7 +2333,7 @@
     {
       "groupId": "androidx.compose.material3",
       "artifactId": "material3",
-      "version": "1.0.1",
+      "version": "1.1.0",
       "ktxTargets": [],
       "fqcns": []
     },
@@ -2347,7 +2347,7 @@
     {
       "groupId": "androidx.compose.material3",
       "artifactId": "material3-window-size-class",
-      "version": "1.0.1",
+      "version": "1.1.0",
       "ktxTargets": [],
       "fqcns": []
     },
@@ -2737,7 +2737,7 @@
     {
       "groupId": "androidx.compose.ui",
       "artifactId": "ui-android-stubs",
-      "version": "1.5.0-alpha03",
+      "version": "1.5.0-alpha04",
       "ktxTargets": [],
       "fqcns": [
         "android.view.DisplayListCanvas",
@@ -3573,7 +3573,7 @@
     {
       "groupId": "androidx.core",
       "artifactId": "core",
-      "version": "1.10.0",
+      "version": "1.10.1",
       "ktxTargets": [],
       "fqcns": [
         "android.support.v4.app.INotificationSideChannel",
@@ -3836,7 +3836,7 @@
     {
       "groupId": "androidx.core",
       "artifactId": "core-ktx",
-      "version": "1.10.0",
+      "version": "1.10.1",
       "ktxTargets": [],
       "fqcns": []
     },
@@ -3852,7 +3852,7 @@
     {
       "groupId": "androidx.core",
       "artifactId": "core-remoteviews",
-      "version": "1.0.0-beta03",
+      "version": "1.0.0-beta04",
       "ktxTargets": [],
       "fqcns": [
         "androidx.core.widget.LandscapePortraitSizes",
@@ -3882,8 +3882,22 @@
     },
     {
       "groupId": "androidx.core",
+      "artifactId": "core-telecom",
+      "version": "1.0.0-alpha01",
+      "ktxTargets": [],
+      "fqcns": [
+        "androidx.core.telecom.CallAttributesCompat",
+        "androidx.core.telecom.CallControlCallback",
+        "androidx.core.telecom.CallControlScope",
+        "androidx.core.telecom.CallEndpointCompat",
+        "androidx.core.telecom.CallException",
+        "androidx.core.telecom.CallsManager"
+      ]
+    },
+    {
+      "groupId": "androidx.core",
       "artifactId": "core-testing",
-      "version": "1.12.0-alpha03",
+      "version": "1.12.0-alpha04",
       "ktxTargets": [],
       "fqcns": [
         "androidx.core.testing.util.TestConsumer"
@@ -3923,16 +3937,133 @@
     {
       "groupId": "androidx.credentials",
       "artifactId": "credentials",
-      "version": "1.2.0-alpha03",
+      "version": "1.2.0-alpha04",
       "ktxTargets": [],
-      "fqcns": []
+      "fqcns": [
+        "androidx.credentials.ClearCredentialStateRequest",
+        "androidx.credentials.CreateCredentialRequest",
+        "androidx.credentials.CreateCredentialResponse",
+        "androidx.credentials.CreateCustomCredentialRequest",
+        "androidx.credentials.CreateCustomCredentialResponse",
+        "androidx.credentials.CreatePasswordRequest",
+        "androidx.credentials.CreatePasswordResponse",
+        "androidx.credentials.CreatePublicKeyCredentialRequest",
+        "androidx.credentials.CreatePublicKeyCredentialResponse",
+        "androidx.credentials.Credential",
+        "androidx.credentials.CredentialManager",
+        "androidx.credentials.CredentialManagerCallback",
+        "androidx.credentials.CredentialOption",
+        "androidx.credentials.CredentialProvider",
+        "androidx.credentials.CredentialProviderFactory",
+        "androidx.credentials.CustomCredential",
+        "androidx.credentials.FederatedCredential",
+        "androidx.credentials.GetCredentialRequest",
+        "androidx.credentials.GetCredentialResponse",
+        "androidx.credentials.GetCustomCredentialOption",
+        "androidx.credentials.GetPasswordOption",
+        "androidx.credentials.GetPublicKeyCredentialOption",
+        "androidx.credentials.PasswordCredential",
+        "androidx.credentials.PrepareGetCredentialResponse",
+        "androidx.credentials.PublicKeyCredential",
+        "androidx.credentials.exceptions.ClearCredentialException",
+        "androidx.credentials.exceptions.ClearCredentialInterruptedException",
+        "androidx.credentials.exceptions.ClearCredentialProviderConfigurationException",
+        "androidx.credentials.exceptions.ClearCredentialUnknownException",
+        "androidx.credentials.exceptions.ClearCredentialUnsupportedException",
+        "androidx.credentials.exceptions.ClearCustomCredentialException",
+        "androidx.credentials.exceptions.CreateCredentialCancellationException",
+        "androidx.credentials.exceptions.CreateCredentialException",
+        "androidx.credentials.exceptions.CreateCredentialInterruptedException",
+        "androidx.credentials.exceptions.CreateCredentialNoCreateOptionException",
+        "androidx.credentials.exceptions.CreateCredentialProviderConfigurationException",
+        "androidx.credentials.exceptions.CreateCredentialUnknownException",
+        "androidx.credentials.exceptions.CreateCredentialUnsupportedException",
+        "androidx.credentials.exceptions.CreateCustomCredentialException",
+        "androidx.credentials.exceptions.GetCredentialCancellationException",
+        "androidx.credentials.exceptions.GetCredentialException",
+        "androidx.credentials.exceptions.GetCredentialInterruptedException",
+        "androidx.credentials.exceptions.GetCredentialProviderConfigurationException",
+        "androidx.credentials.exceptions.GetCredentialUnknownException",
+        "androidx.credentials.exceptions.GetCredentialUnsupportedException",
+        "androidx.credentials.exceptions.GetCustomCredentialException",
+        "androidx.credentials.exceptions.NoCredentialException",
+        "androidx.credentials.exceptions.domerrors.AbortError",
+        "androidx.credentials.exceptions.domerrors.ConstraintError",
+        "androidx.credentials.exceptions.domerrors.DataCloneError",
+        "androidx.credentials.exceptions.domerrors.DataError",
+        "androidx.credentials.exceptions.domerrors.DomError",
+        "androidx.credentials.exceptions.domerrors.EncodingError",
+        "androidx.credentials.exceptions.domerrors.HierarchyRequestError",
+        "androidx.credentials.exceptions.domerrors.InUseAttributeError",
+        "androidx.credentials.exceptions.domerrors.InvalidCharacterError",
+        "androidx.credentials.exceptions.domerrors.InvalidModificationError",
+        "androidx.credentials.exceptions.domerrors.InvalidNodeTypeError",
+        "androidx.credentials.exceptions.domerrors.InvalidStateError",
+        "androidx.credentials.exceptions.domerrors.NamespaceError",
+        "androidx.credentials.exceptions.domerrors.NetworkError",
+        "androidx.credentials.exceptions.domerrors.NoModificationAllowedError",
+        "androidx.credentials.exceptions.domerrors.NotAllowedError",
+        "androidx.credentials.exceptions.domerrors.NotFoundError",
+        "androidx.credentials.exceptions.domerrors.NotReadableError",
+        "androidx.credentials.exceptions.domerrors.NotSupportedError",
+        "androidx.credentials.exceptions.domerrors.OperationError",
+        "androidx.credentials.exceptions.domerrors.OptOutError",
+        "androidx.credentials.exceptions.domerrors.QuotaExceededError",
+        "androidx.credentials.exceptions.domerrors.ReadOnlyError",
+        "androidx.credentials.exceptions.domerrors.SecurityError",
+        "androidx.credentials.exceptions.domerrors.SyntaxError",
+        "androidx.credentials.exceptions.domerrors.TimeoutError",
+        "androidx.credentials.exceptions.domerrors.TransactionInactiveError",
+        "androidx.credentials.exceptions.domerrors.UnknownError",
+        "androidx.credentials.exceptions.domerrors.VersionError",
+        "androidx.credentials.exceptions.domerrors.WrongDocumentError",
+        "androidx.credentials.exceptions.publickeycredential.CreatePublicKeyCredentialDomException",
+        "androidx.credentials.exceptions.publickeycredential.CreatePublicKeyCredentialException",
+        "androidx.credentials.exceptions.publickeycredential.GetPublicKeyCredentialDomException",
+        "androidx.credentials.exceptions.publickeycredential.GetPublicKeyCredentialException",
+        "androidx.credentials.provider.Action",
+        "androidx.credentials.provider.AuthenticationAction",
+        "androidx.credentials.provider.BeginCreateCredentialRequest",
+        "androidx.credentials.provider.BeginCreateCredentialResponse",
+        "androidx.credentials.provider.BeginCreateCustomCredentialRequest",
+        "androidx.credentials.provider.BeginCreatePasswordCredentialRequest",
+        "androidx.credentials.provider.BeginCreatePublicKeyCredentialRequest",
+        "androidx.credentials.provider.BeginGetCredentialOption",
+        "androidx.credentials.provider.BeginGetCredentialRequest",
+        "androidx.credentials.provider.BeginGetCredentialResponse",
+        "androidx.credentials.provider.BeginGetCustomCredentialOption",
+        "androidx.credentials.provider.BeginGetPasswordOption",
+        "androidx.credentials.provider.BeginGetPublicKeyCredentialOption",
+        "androidx.credentials.provider.CreateEntry",
+        "androidx.credentials.provider.CredentialEntry",
+        "androidx.credentials.provider.CredentialProviderService",
+        "androidx.credentials.provider.CustomCredentialEntry",
+        "androidx.credentials.provider.PasswordCredentialEntry",
+        "androidx.credentials.provider.PendingIntentHandler",
+        "androidx.credentials.provider.ProviderClearCredentialStateRequest",
+        "androidx.credentials.provider.ProviderCreateCredentialRequest",
+        "androidx.credentials.provider.ProviderGetCredentialRequest",
+        "androidx.credentials.provider.PublicKeyCredentialEntry",
+        "androidx.credentials.provider.RemoteEntry",
+        "androidx.credentials.provider.utils.BeginCreateCredentialUtil"
+      ]
     },
     {
       "groupId": "androidx.credentials",
       "artifactId": "credentials-play-services-auth",
-      "version": "1.2.0-alpha03",
+      "version": "1.2.0-alpha04",
       "ktxTargets": [],
-      "fqcns": []
+      "fqcns": [
+        "androidx.credentials.playservices.CredentialProviderMetadataHolder",
+        "androidx.credentials.playservices.HiddenActivity",
+        "androidx.credentials.playservices.controllers.BeginSignIn.BeginSignInControllerUtility",
+        "androidx.credentials.playservices.controllers.BeginSignIn.CredentialProviderBeginSignInController",
+        "androidx.credentials.playservices.controllers.CreatePassword.CredentialProviderCreatePasswordController",
+        "androidx.credentials.playservices.controllers.CreatePublicKeyCredential.CredentialProviderCreatePublicKeyCredentialController",
+        "androidx.credentials.playservices.controllers.CreatePublicKeyCredential.PublicKeyCredentialControllerUtility",
+        "androidx.credentials.playservices.controllers.CredentialProviderBaseController",
+        "androidx.credentials.playservices.controllers.CredentialProviderController"
+      ]
     },
     {
       "groupId": "androidx.cursoradapter",
@@ -5005,7 +5136,7 @@
     {
       "groupId": "androidx.emoji2",
       "artifactId": "emoji2-emojipicker",
-      "version": "1.4.0-beta02",
+      "version": "1.4.0-beta03",
       "ktxTargets": [],
       "fqcns": [
         "androidx.emoji2.emojipicker.BundledEmojiListLoader",
@@ -5144,7 +5275,7 @@
     {
       "groupId": "androidx.fragment",
       "artifactId": "fragment-testing-manifest",
-      "version": "1.6.0-beta01",
+      "version": "1.6.0-rc01",
       "ktxTargets": [],
       "fqcns": []
     },
@@ -5225,20 +5356,24 @@
     {
       "groupId": "androidx.glance",
       "artifactId": "glance",
-      "version": "1.0.0-alpha05",
+      "version": "1.0.0-beta01",
       "ktxTargets": [],
       "fqcns": [
         "androidx.glance.ButtonColors",
+        "androidx.glance.ButtonDefaults",
+        "androidx.glance.ColorFilter",
         "androidx.glance.CombinedGlanceModifier",
         "androidx.glance.GlanceComposable",
         "androidx.glance.GlanceId",
         "androidx.glance.GlanceModifier",
+        "androidx.glance.GlanceTheme",
         "androidx.glance.ImageProvider",
         "androidx.glance.Visibility",
         "androidx.glance.action.Action",
         "androidx.glance.action.ActionParameters",
         "androidx.glance.action.MutableActionParameters",
         "androidx.glance.color.ColorProviders",
+        "androidx.glance.color.CustomColorProviders",
         "androidx.glance.layout.Alignment",
         "androidx.glance.layout.ColumnScope",
         "androidx.glance.layout.ContentScale",
@@ -5247,32 +5382,21 @@
         "androidx.glance.semantics.SemanticsProperties",
         "androidx.glance.semantics.SemanticsPropertyKey",
         "androidx.glance.semantics.SemanticsPropertyReceiver",
+        "androidx.glance.session.IdleEventBroadcastReceiver",
+        "androidx.glance.session.InteractiveFrameClock",
+        "androidx.glance.session.SessionWorker",
+        "androidx.glance.session.TimeSource",
+        "androidx.glance.session.TimeoutCancellationException",
+        "androidx.glance.session.TimeoutOptions",
+        "androidx.glance.session.TimerScope",
         "androidx.glance.state.GlanceStateDefinition",
         "androidx.glance.state.PreferencesGlanceStateDefinition",
-        "androidx.glance.template.ActionBlock",
-        "androidx.glance.template.AspectRatio",
-        "androidx.glance.template.ButtonType",
-        "androidx.glance.template.FreeformTemplateData",
-        "androidx.glance.template.GalleryTemplateData",
-        "androidx.glance.template.HeaderBlock",
-        "androidx.glance.template.ImageBlock",
-        "androidx.glance.template.ImageSize",
-        "androidx.glance.template.ListStyle",
-        "androidx.glance.template.ListTemplateData",
-        "androidx.glance.template.ListTemplateItem",
-        "androidx.glance.template.SingleEntityTemplateData",
-        "androidx.glance.template.TemplateButton",
-        "androidx.glance.template.TemplateImageButton",
-        "androidx.glance.template.TemplateImageWithDescription",
-        "androidx.glance.template.TemplateMode",
-        "androidx.glance.template.TemplateText",
-        "androidx.glance.template.TemplateTextButton",
-        "androidx.glance.template.TextBlock",
-        "androidx.glance.template.TextType",
+        "androidx.glance.text.FontFamily",
         "androidx.glance.text.FontStyle",
         "androidx.glance.text.FontWeight",
         "androidx.glance.text.TextAlign",
         "androidx.glance.text.TextDecoration",
+        "androidx.glance.text.TextDefaults",
         "androidx.glance.text.TextStyle",
         "androidx.glance.unit.ColorProvider"
       ]
@@ -5280,24 +5404,28 @@
     {
       "groupId": "androidx.glance",
       "artifactId": "glance-appwidget",
-      "version": "1.0.0-alpha05",
+      "version": "1.0.0-beta01",
       "ktxTargets": [],
       "fqcns": [
         "androidx.glance.appwidget.AlignmentModifier",
         "androidx.glance.appwidget.AppWidgetBackgroundModifier",
         "androidx.glance.appwidget.AppWidgetId",
+        "androidx.glance.appwidget.AppWidgetSession",
         "androidx.glance.appwidget.BoxChildSelector",
         "androidx.glance.appwidget.CheckBoxColors",
+        "androidx.glance.appwidget.CheckboxDefaults",
         "androidx.glance.appwidget.ClipToOutlineModifier",
         "androidx.glance.appwidget.ContainerInfo",
         "androidx.glance.appwidget.ContainerSelector",
+        "androidx.glance.appwidget.ContentReceiver",
         "androidx.glance.appwidget.CornerRadiusModifier",
-        "androidx.glance.appwidget.DoNotUnsetActionModifier",
         "androidx.glance.appwidget.EmittableAndroidRemoteViews",
         "androidx.glance.appwidget.EmittableCheckBox",
         "androidx.glance.appwidget.EmittableCircularProgressIndicator",
+        "androidx.glance.appwidget.EmittableIgnoreResult",
         "androidx.glance.appwidget.EmittableLinearProgressIndicator",
         "androidx.glance.appwidget.EmittableRadioButton",
+        "androidx.glance.appwidget.EmittableSizeBox",
         "androidx.glance.appwidget.EmittableSwitch",
         "androidx.glance.appwidget.EnabledModifier",
         "androidx.glance.appwidget.ExperimentalGlanceRemoteViewsApi",
@@ -5312,6 +5440,7 @@
         "androidx.glance.appwidget.LayoutType",
         "androidx.glance.appwidget.ProgressIndicatorDefaults",
         "androidx.glance.appwidget.RadioButtonColors",
+        "androidx.glance.appwidget.RadioButtonDefaults",
         "androidx.glance.appwidget.RemoteViewsCompositionResult",
         "androidx.glance.appwidget.RemoteViewsInfo",
         "androidx.glance.appwidget.RemoteViewsRoot",
@@ -5321,6 +5450,7 @@
         "androidx.glance.appwidget.SizeSelector",
         "androidx.glance.appwidget.SwitchColors",
         "androidx.glance.appwidget.SwitchDefaults",
+        "androidx.glance.appwidget.TintAndAlphaColorFilterParams",
         "androidx.glance.appwidget.TranslationContext",
         "androidx.glance.appwidget.UriImageProvider",
         "androidx.glance.appwidget.action.ActionCallback",
@@ -5329,6 +5459,7 @@
         "androidx.glance.appwidget.action.ActionTrampolineType",
         "androidx.glance.appwidget.action.CompoundButtonAction",
         "androidx.glance.appwidget.action.InvisibleActionTrampolineActivity",
+        "androidx.glance.appwidget.action.LambdaActionBroadcasts",
         "androidx.glance.appwidget.action.RunCallbackAction",
         "androidx.glance.appwidget.action.SendBroadcastAction",
         "androidx.glance.appwidget.action.SendBroadcastActionAction",
@@ -5351,11 +5482,9 @@
         "androidx.glance.appwidget.lazy.LazyListScope",
         "androidx.glance.appwidget.lazy.LazyScopeMarker",
         "androidx.glance.appwidget.lazy.LazyVerticalGridScope",
-        "androidx.glance.appwidget.template.GlanceTemplateAppWidget",
         "androidx.glance.appwidget.translators.DayNightColorStateList",
         "androidx.glance.appwidget.unit.CheckableColorProvider",
         "androidx.glance.appwidget.unit.CheckedUncheckedColorProvider",
-        "androidx.glance.appwidget.unit.DayNightColorProvider",
         "androidx.glance.appwidget.unit.ResourceCheckableColorProvider"
       ]
     },
@@ -5363,6 +5492,20 @@
       "groupId": "androidx.glance",
       "artifactId": "glance-appwidget-proto",
       "version": "1.0.0-alpha03",
+      "ktxTargets": [],
+      "fqcns": []
+    },
+    {
+      "groupId": "androidx.glance",
+      "artifactId": "glance-material",
+      "version": "1.0.0-beta01",
+      "ktxTargets": [],
+      "fqcns": []
+    },
+    {
+      "groupId": "androidx.glance",
+      "artifactId": "glance-material3",
+      "version": "1.0.0-beta01",
       "ktxTargets": [],
       "fqcns": []
     },
@@ -6326,6 +6469,13 @@
     },
     {
       "groupId": "androidx.media3",
+      "artifactId": "media3-muxer",
+      "version": "1.1.0-alpha01",
+      "ktxTargets": [],
+      "fqcns": []
+    },
+    {
+      "groupId": "androidx.media3",
       "artifactId": "media3-session",
       "version": "1.0.1",
       "ktxTargets": [],
@@ -6923,16 +7073,50 @@
     {
       "groupId": "androidx.privacysandbox.ads",
       "artifactId": "ads-adservices",
-      "version": "1.0.0-beta03",
+      "version": "1.0.0-beta04",
       "ktxTargets": [],
-      "fqcns": []
+      "fqcns": [
+        "androidx.privacysandbox.ads.adservices.adid.AdId",
+        "androidx.privacysandbox.ads.adservices.adid.AdIdManager",
+        "androidx.privacysandbox.ads.adservices.adselection.AdSelectionConfig",
+        "androidx.privacysandbox.ads.adservices.adselection.AdSelectionManager",
+        "androidx.privacysandbox.ads.adservices.adselection.AdSelectionOutcome",
+        "androidx.privacysandbox.ads.adservices.adselection.ReportImpressionRequest",
+        "androidx.privacysandbox.ads.adservices.appsetid.AppSetId",
+        "androidx.privacysandbox.ads.adservices.appsetid.AppSetIdManager",
+        "androidx.privacysandbox.ads.adservices.common.AdData",
+        "androidx.privacysandbox.ads.adservices.common.AdSelectionSignals",
+        "androidx.privacysandbox.ads.adservices.common.AdTechIdentifier",
+        "androidx.privacysandbox.ads.adservices.customaudience.CustomAudience",
+        "androidx.privacysandbox.ads.adservices.customaudience.CustomAudienceManager",
+        "androidx.privacysandbox.ads.adservices.customaudience.JoinCustomAudienceRequest",
+        "androidx.privacysandbox.ads.adservices.customaudience.LeaveCustomAudienceRequest",
+        "androidx.privacysandbox.ads.adservices.customaudience.TrustedBiddingData",
+        "androidx.privacysandbox.ads.adservices.measurement.DeletionRequest",
+        "androidx.privacysandbox.ads.adservices.measurement.MeasurementManager",
+        "androidx.privacysandbox.ads.adservices.measurement.WebSourceParams",
+        "androidx.privacysandbox.ads.adservices.measurement.WebSourceRegistrationRequest",
+        "androidx.privacysandbox.ads.adservices.measurement.WebTriggerParams",
+        "androidx.privacysandbox.ads.adservices.measurement.WebTriggerRegistrationRequest",
+        "androidx.privacysandbox.ads.adservices.topics.GetTopicsRequest",
+        "androidx.privacysandbox.ads.adservices.topics.GetTopicsResponse",
+        "androidx.privacysandbox.ads.adservices.topics.Topic",
+        "androidx.privacysandbox.ads.adservices.topics.TopicsManager"
+      ]
     },
     {
       "groupId": "androidx.privacysandbox.ads",
       "artifactId": "ads-adservices-java",
-      "version": "1.0.0-beta03",
+      "version": "1.0.0-beta04",
       "ktxTargets": [],
-      "fqcns": []
+      "fqcns": [
+        "androidx.privacysandbox.ads.adservices.java.adid.AdIdManagerFutures",
+        "androidx.privacysandbox.ads.adservices.java.adselection.AdSelectionManagerFutures",
+        "androidx.privacysandbox.ads.adservices.java.appsetid.AppSetIdManagerFutures",
+        "androidx.privacysandbox.ads.adservices.java.customaudience.CustomAudienceManagerFutures",
+        "androidx.privacysandbox.ads.adservices.java.measurement.MeasurementManagerFutures",
+        "androidx.privacysandbox.ads.adservices.java.topics.TopicsManagerFutures"
+      ]
     },
     {
       "groupId": "androidx.privacysandbox.library",
@@ -6946,70 +7130,172 @@
       "artifactId": "plugins-privacysandbox-library",
       "version": "1.0.0-alpha01",
       "ktxTargets": [],
-      "fqcns": []
+      "fqcns": [
+        "androidx.privacysandboxlibraryplugin.AidlExecutableInputs",
+        "androidx.privacysandboxlibraryplugin.FrameworkAidlInputs",
+        "androidx.privacysandboxlibraryplugin.PrivacySandboxLibraryPlugin"
+      ]
     },
     {
       "groupId": "androidx.privacysandbox.sdkruntime",
       "artifactId": "sdkruntime-client",
-      "version": "1.0.0-alpha03",
+      "version": "1.0.0-alpha04",
       "ktxTargets": [],
-      "fqcns": []
+      "fqcns": [
+        "androidx.privacysandbox.sdkruntime.client.SdkSandboxManagerCompat",
+        "androidx.privacysandbox.sdkruntime.client.SdkSandboxProcessDeathCallbackCompat",
+        "androidx.privacysandbox.sdkruntime.client.config.LocalSdkConfig",
+        "androidx.privacysandbox.sdkruntime.client.config.LocalSdkConfigParser",
+        "androidx.privacysandbox.sdkruntime.client.config.ResourceRemappingConfig",
+        "androidx.privacysandbox.sdkruntime.client.controller.LocalController",
+        "androidx.privacysandbox.sdkruntime.client.controller.LocallyLoadedSdks",
+        "androidx.privacysandbox.sdkruntime.client.loader.FileClassLoaderFactory",
+        "androidx.privacysandbox.sdkruntime.client.loader.InMemorySdkClassLoaderFactory",
+        "androidx.privacysandbox.sdkruntime.client.loader.JavaResourcesLoadingClassLoaderFactory",
+        "androidx.privacysandbox.sdkruntime.client.loader.ResourceRemapping",
+        "androidx.privacysandbox.sdkruntime.client.loader.SdkLoader",
+        "androidx.privacysandbox.sdkruntime.client.loader.storage.CachedLocalSdkStorage",
+        "androidx.privacysandbox.sdkruntime.client.loader.storage.LocalSdkDexFiles",
+        "androidx.privacysandbox.sdkruntime.client.loader.storage.LocalSdkFolderProvider",
+        "androidx.privacysandbox.sdkruntime.client.loader.storage.LocalSdkStorage"
+      ]
     },
     {
       "groupId": "androidx.privacysandbox.sdkruntime",
       "artifactId": "sdkruntime-core",
-      "version": "1.0.0-alpha03",
+      "version": "1.0.0-alpha04",
       "ktxTargets": [],
-      "fqcns": []
+      "fqcns": [
+        "androidx.privacysandbox.sdkruntime.core.LoadSdkCompatException",
+        "androidx.privacysandbox.sdkruntime.core.SandboxedSdkCompat",
+        "androidx.privacysandbox.sdkruntime.core.SandboxedSdkInfo",
+        "androidx.privacysandbox.sdkruntime.core.SandboxedSdkProviderAdapter",
+        "androidx.privacysandbox.sdkruntime.core.SandboxedSdkProviderCompat",
+        "androidx.privacysandbox.sdkruntime.core.activity.ActivityHolder",
+        "androidx.privacysandbox.sdkruntime.core.activity.SdkSandboxActivityHandlerCompat",
+        "androidx.privacysandbox.sdkruntime.core.controller.SdkSandboxControllerCompat"
+      ]
     },
     {
       "groupId": "androidx.privacysandbox.tools",
       "artifactId": "tools",
       "version": "1.0.0-alpha03",
       "ktxTargets": [],
-      "fqcns": []
+      "fqcns": [
+        "androidx.privacysandbox.tools.PrivacySandboxCallback",
+        "androidx.privacysandbox.tools.PrivacySandboxInterface",
+        "androidx.privacysandbox.tools.PrivacySandboxService",
+        "androidx.privacysandbox.tools.PrivacySandboxValue"
+      ]
     },
     {
       "groupId": "androidx.privacysandbox.tools",
       "artifactId": "tools-apicompiler",
       "version": "1.0.0-alpha03",
       "ktxTargets": [],
-      "fqcns": []
+      "fqcns": [
+        "androidx.privacysandbox.tools.apicompiler.PrivacySandboxKspCompiler",
+        "androidx.privacysandbox.tools.apicompiler.generator.AbstractSdkProviderGenerator",
+        "androidx.privacysandbox.tools.apicompiler.generator.Api33SdkProviderGenerator",
+        "androidx.privacysandbox.tools.apicompiler.generator.CompatSdkProviderGenerator",
+        "androidx.privacysandbox.tools.apicompiler.generator.SandboxApiVersion",
+        "androidx.privacysandbox.tools.apicompiler.generator.SdkCodeGenerator",
+        "androidx.privacysandbox.tools.apicompiler.parser.ApiParser",
+        "androidx.privacysandbox.tools.apicompiler.parser.InterfaceParser",
+        "androidx.privacysandbox.tools.apicompiler.parser.TypeParser",
+        "androidx.privacysandbox.tools.apicompiler.parser.ValueParser"
+      ]
     },
     {
       "groupId": "androidx.privacysandbox.tools",
       "artifactId": "tools-apigenerator",
       "version": "1.0.0-alpha03",
       "ktxTargets": [],
-      "fqcns": []
+      "fqcns": [
+        "androidx.privacysandbox.tools.apigenerator.InterfaceFileGenerator",
+        "androidx.privacysandbox.tools.apigenerator.PrivacySandboxApiGenerator",
+        "androidx.privacysandbox.tools.apigenerator.parser.AnnotatedClassReader",
+        "androidx.privacysandbox.tools.apigenerator.parser.AnnotatedClasses",
+        "androidx.privacysandbox.tools.apigenerator.parser.ApiStubParser",
+        "androidx.privacysandbox.tools.apigenerator.parser.PrivacySandboxParsingException"
+      ]
     },
     {
       "groupId": "androidx.privacysandbox.tools",
       "artifactId": "tools-apipackager",
       "version": "1.0.0-alpha03",
       "ktxTargets": [],
-      "fqcns": []
+      "fqcns": [
+        "androidx.privacysandbox.tools.apipackager.AnnotationInspector",
+        "androidx.privacysandbox.tools.apipackager.PrivacySandboxApiPackager"
+      ]
     },
     {
       "groupId": "androidx.privacysandbox.tools",
       "artifactId": "tools-core",
       "version": "1.0.0-alpha03",
       "ktxTargets": [],
-      "fqcns": []
+      "fqcns": [
+        "androidx.privacysandbox.tools.core.Metadata",
+        "androidx.privacysandbox.tools.core.generator.AidlCompiler",
+        "androidx.privacysandbox.tools.core.generator.AidlGenerator",
+        "androidx.privacysandbox.tools.core.generator.BinderCodeConverter",
+        "androidx.privacysandbox.tools.core.generator.ClientBinderCodeConverter",
+        "androidx.privacysandbox.tools.core.generator.ClientProxyTypeGenerator",
+        "androidx.privacysandbox.tools.core.generator.CoreLibInfoAndBinderWrapperConverterGenerator",
+        "androidx.privacysandbox.tools.core.generator.GeneratedSource",
+        "androidx.privacysandbox.tools.core.generator.GenerationTarget",
+        "androidx.privacysandbox.tools.core.generator.PrivacySandboxExceptionFileGenerator",
+        "androidx.privacysandbox.tools.core.generator.ServerBinderCodeConverter",
+        "androidx.privacysandbox.tools.core.generator.ServiceFactoryFileGenerator",
+        "androidx.privacysandbox.tools.core.generator.SpecNames",
+        "androidx.privacysandbox.tools.core.generator.StubDelegatesGenerator",
+        "androidx.privacysandbox.tools.core.generator.ThrowableParcelConverterFileGenerator",
+        "androidx.privacysandbox.tools.core.generator.TransportCancellationGenerator",
+        "androidx.privacysandbox.tools.core.generator.ValueConverterFileGenerator",
+        "androidx.privacysandbox.tools.core.generator.ValueFileGenerator",
+        "androidx.privacysandbox.tools.core.generator.poet.AidlFileSpec",
+        "androidx.privacysandbox.tools.core.generator.poet.AidlInterfaceSpec",
+        "androidx.privacysandbox.tools.core.generator.poet.AidlMethodSpec",
+        "androidx.privacysandbox.tools.core.generator.poet.AidlParameterSpec",
+        "androidx.privacysandbox.tools.core.generator.poet.AidlParcelableSpec",
+        "androidx.privacysandbox.tools.core.generator.poet.AidlPropertySpec",
+        "androidx.privacysandbox.tools.core.generator.poet.AidlTypeKind",
+        "androidx.privacysandbox.tools.core.generator.poet.AidlTypeSpec",
+        "androidx.privacysandbox.tools.core.model.AnnotatedInterface",
+        "androidx.privacysandbox.tools.core.model.AnnotatedValue",
+        "androidx.privacysandbox.tools.core.model.Method",
+        "androidx.privacysandbox.tools.core.model.Parameter",
+        "androidx.privacysandbox.tools.core.model.ParsedApi",
+        "androidx.privacysandbox.tools.core.model.Type",
+        "androidx.privacysandbox.tools.core.model.Types",
+        "androidx.privacysandbox.tools.core.model.ValueProperty",
+        "androidx.privacysandbox.tools.core.validator.ModelValidator",
+        "androidx.privacysandbox.tools.core.validator.ValidationResult"
+      ]
     },
     {
       "groupId": "androidx.privacysandbox.ui",
       "artifactId": "ui-client",
       "version": "1.0.0-alpha02",
       "ktxTargets": [],
-      "fqcns": []
+      "fqcns": [
+        "androidx.privacysandbox.ui.client.SandboxedUiAdapterFactory",
+        "androidx.privacysandbox.ui.client.view.SandboxedSdkView"
+      ]
     },
     {
       "groupId": "androidx.privacysandbox.ui",
       "artifactId": "ui-core",
       "version": "1.0.0-alpha02",
       "ktxTargets": [],
-      "fqcns": []
+      "fqcns": [
+        "androidx.privacysandbox.ui.core.IRemoteSessionClient",
+        "androidx.privacysandbox.ui.core.IRemoteSessionController",
+        "androidx.privacysandbox.ui.core.ISandboxedUiAdapter",
+        "androidx.privacysandbox.ui.core.SandboxedUiAdapter",
+        "androidx.privacysandbox.ui.core.SdkRuntimeUiLibVersions"
+      ]
     },
     {
       "groupId": "androidx.privacysandbox.ui",
@@ -10145,7 +10431,7 @@
     {
       "groupId": "androidx.wear.compose",
       "artifactId": "compose-material-core",
-      "version": "1.2.0-alpha09",
+      "version": "1.2.0-alpha10",
       "ktxTargets": [],
       "fqcns": [],
       "ktlfns": [
@@ -10169,13 +10455,16 @@
     {
       "groupId": "androidx.wear.compose",
       "artifactId": "compose-material3",
-      "version": "1.0.0-alpha03",
+      "version": "1.0.0-alpha04",
       "ktxTargets": [],
       "fqcns": [
         "androidx.wear.compose.material3.ButtonColors",
         "androidx.wear.compose.material3.ButtonDefaults",
         "androidx.wear.compose.material3.ColorScheme",
         "androidx.wear.compose.material3.ContentAlpha",
+        "androidx.wear.compose.material3.ExperimentalWearMaterial3Api",
+        "androidx.wear.compose.material3.IconButtonColors",
+        "androidx.wear.compose.material3.IconButtonDefaults",
         "androidx.wear.compose.material3.MaterialTheme",
         "androidx.wear.compose.material3.ShapeDefaults",
         "androidx.wear.compose.material3.Shapes",
@@ -10196,6 +10485,18 @@
         },
         {
           "fqn": "androidx.wear.compose.material3.ColorSchemeKt.contentColorFor"
+        },
+        {
+          "fqn": "androidx.wear.compose.material3.IconButtonKt.FilledIconButton"
+        },
+        {
+          "fqn": "androidx.wear.compose.material3.IconButtonKt.FilledTonalIconButton"
+        },
+        {
+          "fqn": "androidx.wear.compose.material3.IconButtonKt.IconButton"
+        },
+        {
+          "fqn": "androidx.wear.compose.material3.IconButtonKt.OutlinedIconButton"
         },
         {
           "fqn": "androidx.wear.compose.material3.IconKt.Icon"
@@ -10235,7 +10536,7 @@
     {
       "groupId": "androidx.wear.compose",
       "artifactId": "compose-ui-tooling",
-      "version": "1.2.0-alpha09",
+      "version": "1.2.0-alpha10",
       "ktxTargets": [],
       "fqcns": [
         "androidx.wear.compose.ui.tooling.preview.WearPreviewDevices",
@@ -10248,42 +10549,42 @@
     {
       "groupId": "androidx.wear.protolayout",
       "artifactId": "protolayout",
-      "version": "1.0.0-alpha08",
+      "version": "1.0.0-alpha09",
       "ktxTargets": [],
       "fqcns": []
     },
     {
       "groupId": "androidx.wear.protolayout",
       "artifactId": "protolayout-expression",
-      "version": "1.0.0-alpha08",
+      "version": "1.0.0-alpha09",
       "ktxTargets": [],
       "fqcns": []
     },
     {
       "groupId": "androidx.wear.protolayout",
       "artifactId": "protolayout-expression-pipeline",
-      "version": "1.0.0-alpha08",
+      "version": "1.0.0-alpha09",
       "ktxTargets": [],
       "fqcns": []
     },
     {
       "groupId": "androidx.wear.protolayout",
       "artifactId": "protolayout-material",
-      "version": "1.0.0-alpha08",
+      "version": "1.0.0-alpha09",
       "ktxTargets": [],
       "fqcns": []
     },
     {
       "groupId": "androidx.wear.protolayout",
       "artifactId": "protolayout-proto",
-      "version": "1.0.0-alpha08",
+      "version": "1.0.0-alpha09",
       "ktxTargets": [],
       "fqcns": []
     },
     {
       "groupId": "androidx.wear.protolayout",
       "artifactId": "protolayout-renderer",
-      "version": "1.0.0-alpha08",
+      "version": "1.0.0-alpha09",
       "ktxTargets": [],
       "fqcns": []
     },
@@ -10380,7 +10681,7 @@
     {
       "groupId": "androidx.wear.tiles",
       "artifactId": "tiles-tooling",
-      "version": "1.2.0-alpha04",
+      "version": "1.2.0-alpha05",
       "ktxTargets": [],
       "fqcns": [
         "androidx.wear.tiles.tooling.TileServiceViewAdapter"
@@ -10744,7 +11045,7 @@
     {
       "groupId": "androidx.window",
       "artifactId": "window-core",
-      "version": "1.1.0-beta02",
+      "version": "1.1.0-rc01",
       "ktxTargets": [],
       "fqcns": [
         "androidx.window.core.layout.WindowHeightSizeClass",
@@ -10805,7 +11106,7 @@
     {
       "groupId": "androidx.window.extensions.core",
       "artifactId": "core",
-      "version": "1.0.0-beta03",
+      "version": "1.0.0-rc01",
       "ktxTargets": [],
       "fqcns": []
     },
@@ -10951,7 +11252,7 @@
     {
       "groupId": "com.android.billingclient",
       "artifactId": "billing",
-      "version": "5.2.0",
+      "version": "6.0.0",
       "ktxTargets": [],
       "fqcns": [
         "com.android.billingclient.api.AccountIdentifiers",
@@ -10984,7 +11285,7 @@
     {
       "groupId": "com.android.billingclient",
       "artifactId": "billing-ktx",
-      "version": "5.2.0",
+      "version": "6.0.0",
       "ktxTargets": [
         "com.android.billingclient:billing"
       ],
@@ -11288,7 +11589,60 @@
       "artifactId": "identity-credential",
       "version": "20230420",
       "ktxTargets": [],
-      "fqcns": []
+      "fqcns": [
+        "com.android.identity.AccessControlProfile",
+        "com.android.identity.AccessControlProfileId",
+        "com.android.identity.AlreadyPersonalizedException",
+        "com.android.identity.CipherSuiteNotSupportedException",
+        "com.android.identity.ConnectionMethod",
+        "com.android.identity.ConnectionMethodBle",
+        "com.android.identity.ConnectionMethodHttp",
+        "com.android.identity.ConnectionMethodNfc",
+        "com.android.identity.ConnectionMethodWifiAware",
+        "com.android.identity.Constants",
+        "com.android.identity.CredentialDataRequest",
+        "com.android.identity.CredentialDataResult",
+        "com.android.identity.CredentialInvalidatedException",
+        "com.android.identity.DataTransport",
+        "com.android.identity.DataTransportHttp",
+        "com.android.identity.DataTransportNfc",
+        "com.android.identity.DataTransportOptions",
+        "com.android.identity.DeviceRequestGenerator",
+        "com.android.identity.DeviceRequestParser",
+        "com.android.identity.DeviceResponseGenerator",
+        "com.android.identity.DeviceResponseParser",
+        "com.android.identity.DeviceRetrievalHelper",
+        "com.android.identity.DocTypeNotSupportedException",
+        "com.android.identity.EngagementGenerator",
+        "com.android.identity.EngagementParser",
+        "com.android.identity.EphemeralPublicKeyNotFoundException",
+        "com.android.identity.HardwarePresentationSession",
+        "com.android.identity.IdentityCredential",
+        "com.android.identity.IdentityCredentialException",
+        "com.android.identity.IdentityCredentialStore",
+        "com.android.identity.InvalidReaderSignatureException",
+        "com.android.identity.InvalidRequestMessageException",
+        "com.android.identity.Logger",
+        "com.android.identity.MessageDecryptionException",
+        "com.android.identity.MobileSecurityObjectGenerator",
+        "com.android.identity.MobileSecurityObjectParser",
+        "com.android.identity.NfcEngagementHelper",
+        "com.android.identity.NoAuthenticationKeyAvailableException",
+        "com.android.identity.OriginInfo",
+        "com.android.identity.OriginInfoNfc",
+        "com.android.identity.OriginInfoQr",
+        "com.android.identity.OriginInfoWebsite",
+        "com.android.identity.PersonalizationData",
+        "com.android.identity.PlatformCredentialDataResult",
+        "com.android.identity.PresentationSession",
+        "com.android.identity.QrEngagementHelper",
+        "com.android.identity.Timestamp",
+        "com.android.identity.TransmissionProgressListener",
+        "com.android.identity.UnknownAuthenticationKeyException",
+        "com.android.identity.Utility",
+        "com.android.identity.VerificationHelper",
+        "com.android.identity.WritableIdentityCredential"
+      ]
     },
     {
       "groupId": "com.android.installreferrer",
@@ -11327,7 +11681,7 @@
     {
       "groupId": "com.android.kotlin.multiplatform.library",
       "artifactId": "com.android.kotlin.multiplatform.library.gradle.plugin",
-      "version": "8.2.0-alpha02",
+      "version": "8.2.0-alpha03",
       "ktxTargets": [],
       "fqcns": []
     },
@@ -12370,7 +12724,7 @@
     {
       "groupId": "com.android.tools.build",
       "artifactId": "aapt2",
-      "version": "8.2.0-alpha02-9603961",
+      "version": "8.2.0-alpha03-9603961",
       "ktxTargets": [],
       "fqcns": []
     },
@@ -12426,7 +12780,7 @@
     {
       "groupId": "com.android.tools.build",
       "artifactId": "bundletool",
-      "version": "1.14.1",
+      "version": "1.15.0",
       "ktxTargets": [],
       "fqcns": []
     },
@@ -12713,7 +13067,7 @@
     {
       "groupId": "com.android.tools.utp",
       "artifactId": "android-test-plugin-host-apk-installer",
-      "version": "31.2.0-alpha02",
+      "version": "31.2.0-alpha03",
       "ktxTargets": [],
       "fqcns": []
     },
@@ -12755,14 +13109,14 @@
     {
       "groupId": "com.android.tools.utp",
       "artifactId": "android-test-plugin-host-emulator-control",
-      "version": "31.2.0-alpha02",
+      "version": "31.2.0-alpha03",
       "ktxTargets": [],
       "fqcns": []
     },
     {
       "groupId": "com.android.tools.utp",
       "artifactId": "android-test-plugin-host-emulator-control-proto",
-      "version": "31.2.0-alpha02",
+      "version": "31.2.0-alpha03",
       "ktxTargets": [],
       "fqcns": []
     },
@@ -13069,7 +13423,7 @@
     {
       "groupId": "com.google.ads.mediation",
       "artifactId": "pangle",
-      "version": "5.1.0.8.0",
+      "version": "5.1.0.9.0",
       "ktxTargets": [],
       "fqcns": []
     },
@@ -13090,7 +13444,7 @@
     {
       "groupId": "com.google.ads.mediation",
       "artifactId": "unity",
-      "version": "4.6.1.1",
+      "version": "4.7.0.0",
       "ktxTargets": [],
       "fqcns": []
     },
@@ -16022,7 +16376,11 @@
       "artifactId": "googleid",
       "version": "1.0.0",
       "ktxTargets": [],
-      "fqcns": []
+      "fqcns": [
+        "com.google.android.libraries.identity.googleid.GetGoogleIdOption",
+        "com.google.android.libraries.identity.googleid.GoogleIdTokenCredential",
+        "com.google.android.libraries.identity.googleid.GoogleIdTokenParsingException"
+      ]
     },
     {
       "groupId": "com.google.android.libraries.maps",
@@ -16940,7 +17298,7 @@
     {
       "groupId": "com.google.ar",
       "artifactId": "core",
-      "version": "1.36.0",
+      "version": "1.37.0",
       "ktxTargets": [],
       "fqcns": [
         "com.google.android.build.data.PropertiesServiceHolder",
@@ -16955,17 +17313,21 @@
         "com.google.ar.core.CameraIntrinsics",
         "com.google.ar.core.Config",
         "com.google.ar.core.Coordinates2d",
+        "com.google.ar.core.Coordinates3d",
         "com.google.ar.core.DepthPoint",
         "com.google.ar.core.Earth",
         "com.google.ar.core.Frame",
+        "com.google.ar.core.Future",
         "com.google.ar.core.FutureState",
         "com.google.ar.core.GeospatialPose",
         "com.google.ar.core.HitResult",
+        "com.google.ar.core.HostCloudAnchorFuture",
         "com.google.ar.core.ImageFormat",
         "com.google.ar.core.ImageMetadata",
         "com.google.ar.core.InstallActivity",
         "com.google.ar.core.InstantPlacementPoint",
         "com.google.ar.core.LightEstimate",
+        "com.google.ar.core.Mesh",
         "com.google.ar.core.Plane",
         "com.google.ar.core.PlaybackStatus",
         "com.google.ar.core.Point",
@@ -16973,8 +17335,13 @@
         "com.google.ar.core.Pose",
         "com.google.ar.core.RecordingConfig",
         "com.google.ar.core.RecordingStatus",
+        "com.google.ar.core.ResolveAnchorOnRooftopFuture",
+        "com.google.ar.core.ResolveAnchorOnTerrainFuture",
+        "com.google.ar.core.ResolveCloudAnchorFuture",
+        "com.google.ar.core.SemanticLabel",
         "com.google.ar.core.Session",
         "com.google.ar.core.SharedCamera",
+        "com.google.ar.core.StreetscapeGeometry",
         "com.google.ar.core.Track",
         "com.google.ar.core.TrackData",
         "com.google.ar.core.Trackable",
@@ -20978,28 +21345,28 @@
     {
       "groupId": "com.google.mediapipe",
       "artifactId": "tasks-audio",
-      "version": "0.1.0-alpha-10",
+      "version": "0.10.0",
       "ktxTargets": [],
       "fqcns": []
     },
     {
       "groupId": "com.google.mediapipe",
       "artifactId": "tasks-core",
-      "version": "0.1.0-alpha-10",
+      "version": "0.10.0",
       "ktxTargets": [],
       "fqcns": []
     },
     {
       "groupId": "com.google.mediapipe",
       "artifactId": "tasks-text",
-      "version": "0.1.0-alpha-10",
+      "version": "0.10.0",
       "ktxTargets": [],
       "fqcns": []
     },
     {
       "groupId": "com.google.mediapipe",
       "artifactId": "tasks-vision",
-      "version": "0.1.0-alpha-10",
+      "version": "0.10.0",
       "ktxTargets": [],
       "fqcns": []
     },

@@ -16,14 +16,19 @@
   <!-- Text to display as description on Preferences/Settings | Plugin page -->
   <description>
     <![CDATA[
-      Help generate JMH Benchmark annotation, method, class.
-      Run and Report JMH benchmark.
+      Help generate JMH Benchmark annotation, method, class for Java projects. Moreover, help run and report JMH benchmark.
+      This tool is based on Java Benchmark Harness Plugin.<br>
+      <ul>
+        <li>By right-clicking, you can add @Benchmark annotation or benchmark code template.</li>
+        <li>Offer a tool window where you can set JMH parameters and run JMH test through clicking a button.</li>
+        <li>Offer a tool window which can use bar charts to visualize the JSON file containing JMH results.</li>
+      </ul>
     ]]>
   </description>
   <change-notes>
     <![CDATA[
       <ul>
-        <li><b>1.0.0</b>build1</li>
+        <li><b>2.0.7</b>solve "file not null" error</li>
       </ul>
     ]]>
   </change-notes>

@@ -1,61 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <svg viewBox="0 0 80 80" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <linearGradient id="pluginsdk_80-a" x1="-.031%" x2="100.053%" y1="49.963%" y2="49.963%">
-      <stop offset="0.2581" stop-color="#F97A12"/>
-      <stop offset="0.4591" stop-color="#B07B58"/>
-      <stop offset="0.7241" stop-color="#577BAE"/>
-      <stop offset="0.9105" stop-color="#1E7CE5"/>
-      <stop offset="1" stop-color="#087CFA"/>
-    </linearGradient>
-    <linearGradient id="pluginsdk_80-b" x1="27.55%" x2="82.223%" y1="34.514%" y2="77.605%">
-      <stop offset="0" stop-color="#F97A12"/>
-      <stop offset="0.0718" stop-color="#CB7A3E"/>
-      <stop offset="0.1541" stop-color="#9E7B6A"/>
-      <stop offset="0.242" stop-color="#757B91"/>
-      <stop offset="0.3344" stop-color="#537BB1"/>
-      <stop offset="0.4324" stop-color="#387CCC"/>
-      <stop offset="0.5381" stop-color="#237CE0"/>
-      <stop offset="0.6552" stop-color="#147CEF"/>
-      <stop offset="0.7925" stop-color="#0B7CF7"/>
-      <stop offset="1" stop-color="#087CFA"/>
-    </linearGradient>
-    <linearGradient id="pluginsdk_80-c" x1="63.121%" x2="40.793%" y1="97.699%" y2="-6.587%">
-      <stop offset="0" stop-color="#FE315D"/>
-      <stop offset="0.0784" stop-color="#CB417E"/>
-      <stop offset="0.1601" stop-color="#9E4E9B"/>
-      <stop offset="0.2474" stop-color="#755BB4"/>
-      <stop offset="0.3392" stop-color="#5365CA"/>
-      <stop offset="0.4365" stop-color="#386DDB"/>
-      <stop offset="0.5414" stop-color="#2374E9"/>
-      <stop offset="0.6576" stop-color="#1478F3"/>
-      <stop offset="0.794" stop-color="#0B7BF8"/>
-      <stop offset="1" stop-color="#087CFA"/>
-    </linearGradient>
-    <linearGradient id="pluginsdk_80-d" x1="25.331%" x2="93.854%" y1="24.119%" y2="132.621%">
-      <stop offset="0" stop-color="#FE315D"/>
-      <stop offset="0.0402" stop-color="#F63462"/>
-      <stop offset="0.1037" stop-color="#DF3A71"/>
-      <stop offset="0.1667" stop-color="#C24383"/>
-      <stop offset="0.2912" stop-color="#AD4A91"/>
-      <stop offset="0.5498" stop-color="#755BB4"/>
-      <stop offset="0.9175" stop-color="#1D76ED"/>
-      <stop offset="1" stop-color="#087CFA"/>
-    </linearGradient>
-  </defs>
   <g fill="none" fill-rule="evenodd">
-    <g fill-rule="nonzero" transform="matrix(1, 0, 0, 1, 8, 8)">
-      <path fill="url(#pluginsdk_80-a)" d="M6.08754566,64 L2.66453526e-15,59.1000946 L0,26.7918961 L30,38.6703369 L10.1403967,64 L6.08754566,64 Z"/>
-      <path fill="url(#pluginsdk_80-b)" d="M20.9524706,64 L52.2740919,31.9159091 L37.6708832,0.460194805 L38.0580944,1.33226763e-15 L64,0 L64,64 L20.9524706,64 Z"/>
-      <path fill="url(#pluginsdk_80-c)" d="M34.4123783,0 L64,0 L64,28.0366227 L49.0078336,44 L34,0.44696173 L34.4123783,0 Z"/>
-      <path fill="url(#pluginsdk_80-d)" d="M30.3358775,64 L0,64 L0,49.9709549 L6.23437817,29.2830519 L0,27.1596093 L0,0 L39.4697238,0 L58,21.3844805 L30.5381317,63.9259091 L30.3358775,64 Z"/>
-    </g>
-    <g fill-rule="nonzero" transform="translate(12 12)">
-      <rect width="56" height="56" fill="#000"/>
+    <g fill-rule="nonzero" transform="matrix(0.999999, -0.000482, 0.000482, 0.999999, 11.986515, 12.013494)">
+      <rect width="56" height="56" style="fill: rgb(72, 101, 152);"/>
       <text style="fill: rgb(235, 236, 232); font-family: Arial, sans-serif; font-size: 13px; text-transform: capitalize; white-space: pre; text-anchor: middle;" transform="matrix(1.613293, 0, 0, 1.610994, 30.808355, -26.940836)"><tspan x="-1.822" y="31.157">JMH</tspan><tspan x="-1.822" dy="1em">​</tspan><tspan>TEST</tspan></text>
       <text style="white-space: pre; fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 3.5px;" x="24.822" y="10.83"> </text>
       <text style="white-space: pre; fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 3.5px;" x="21.451" y="14.13"> </text>
     </g>
   </g>
   <text style="white-space: pre; fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 3.5px;" x="40.944" y="24.814"> </text>
+  <rect x="9.673" y="9.577" width="60.167" height="60.73" style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0); opacity: 0.36;"/>
 </svg>
